@@ -1,13 +1,15 @@
+'use server';
+
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 
-interface TranslationsProviderProps {
+interface TranslationProviderProviderProps {
   children: React.ReactNode;
 }
 
-export default async function TranslationsProvider({
+export async function TranslationProvider({
   children
-}: TranslationsProviderProps) {
+}: TranslationProviderProviderProps) {
   const messages = await getMessages();
 
   return (

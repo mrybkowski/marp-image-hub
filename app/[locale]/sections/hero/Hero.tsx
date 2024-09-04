@@ -9,7 +9,7 @@ import { P } from '@/components/ui/typography-p';
 import InfoCard from './InfoCard';
 import BackgroundLayer from './BackgroundLayer';
 
-function Hero() {
+export default function Hero() {
   const t = useTranslations('hero');
 
   return (
@@ -80,5 +80,3 @@ function Hero() {
     </section>
   );
 }
-
-export default Hero;

@@ -6,7 +6,11 @@ interface InfoCardProps {
   description: string;
 }
 
-function InfoCard({ title, quantity, description }: InfoCardProps) {
+export default function InfoCard({
+  title,
+  quantity,
+  description
+}: InfoCardProps) {
   return (
     <div className="dark:bg-slate-900/50 bg-white/50 rounded-3xl p-8 border border-slate-100 flex flex-col justify-center gap-2">
       <P className="lg:text-3xl text-2xl">{title}</P>
@@ -15,5 +19,3 @@ function InfoCard({ title, quantity, description }: InfoCardProps) {
     </div>
   );
 }
-
-export default InfoCard;

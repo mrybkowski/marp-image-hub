@@ -1,10 +1,8 @@
 import type { Metadata } from 'next';
-import { Anek_Latin, Montserrat } from 'next/font/google';
+
+import { AOSInit, ThemeProvider, TranslationProvider } from '@/providers';
+
 import './globals.css';
-import { AOSInit } from '@/components/AOSInit';
-import { ThemeProvider } from '@/components/ThemeProvider';
-import { cn } from '@/lib/utils';
-import TranslationsProvider from '@/components/TranslationsProvider';
 
 export const metadata: Metadata = {
   title: 'Image Hub - profesjonalne narzędzie dla fotografów',
@@ -23,7 +21,7 @@ export default async function RootLayout({
       <body>
         <AOSInit />
         <ThemeProvider>
-          <TranslationsProvider>{children}</TranslationsProvider>
+          <TranslationProvider>{children}</TranslationProvider>
         </ThemeProvider>
       </body>
     </html>
