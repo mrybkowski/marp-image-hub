@@ -12,19 +12,28 @@ import BackgroundLayer from './BackgroundLayer';
 export default function Hero() {
   const t = useTranslations('hero');
 
+  const gradient = {
+    green:
+      'radial-gradient(circle, rgba(177,219,97,1) 0%, rgba(177,219,97,0) 100%)',
+    purple:
+      'radial-gradient(circle, rgba(191,177,245,1) 0%, rgba(191,177,245,0) 100%)'
+  };
+
   return (
-    <section className="xl:h-full xl:py-0 py-[100px] relative overflow-hidden">
+    <section
+      id="hero"
+      className="xl:h-full xl:py-0 py-[100px] relative overflow-hidden">
       <BackgroundLayer
         className="top-[-25%] right-[-40%] w-[80%] h-[80%]"
-        gradient="radial-gradient(circle, rgba(191,177,245,1) 0%, rgba(191,177,245,0) 100%)"
+        gradient={gradient.purple}
       />
       <BackgroundLayer
         className="top-[-10%] left-[-0%] w-[90%] h-[90%]"
-        gradient="radial-gradient(circle, rgba(177,219,97,1) 0%, rgba(177,219,97,0) 100%)"
+        gradient={gradient.green}
       />
       <BackgroundLayer
         className="bottom-[-0%] right-[-25%] w-[50%] h-[50%]"
-        gradient="radial-gradient(circle, rgba(177,219,97,1) 0%, rgba(177,219,97,0) 100%)"
+        gradient={gradient.green}
       />
 
       <Container className="flex flex-col xl:flex-row h-full z-10 relative gap-10">

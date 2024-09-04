@@ -9,7 +9,7 @@ import { useCallback } from 'react';
  * @returns A function that triggers the scroll.
  */
 
-type SectionId = 'id1' | 'id2';
+type SectionId = 'hero';
 
 function useScrollToSection(targetId: SectionId): () => void {
   const scrollToSection = useCallback(() => {
