@@ -7,6 +7,25 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        'move-pulse': 'movePulse 4s ease-in-out infinite'
+      },
+      keyframes: {
+        movePulse: {
+          '0%, 100%': {
+            transform: 'translateY(0) translateX(0)',
+            opacity: '1'
+          },
+          '50%': {
+            transform: 'translateY(20px) translateX(-20px)',
+            opacity: '0.7'
+          }
+        }
+      },
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+        anekLatin: ['Anek Latin', 'sans-serif']
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

@@ -1,17 +1,18 @@
-import { Container } from '@/components/ui/container';
 import { ToggleMode } from '@/components/ui/toggle-mode';
-import { H1 } from '@/components/ui/typography-h1';
 import { useTranslations } from 'next-intl';
+import { Hero } from './sections/hero';
 
 export default function Home() {
-  const t = useTranslations('app');
+  const t = useTranslations('hero');
 
   return (
-    <main className="h-full">
-      <Container className="flex items-center justify-center gap-5 h-full">
+    <>
+      <div className="absolute z-50 top-5 left-5">
         <ToggleMode />
-        <H1>{t('name')}</H1>
-      </Container>
-    </main>
+      </div>
+      <main className="h-full">
+        <Hero />
+      </main>
+    </>
   );
 }

@@ -3,16 +3,19 @@ import { cva, type VariantProps } from 'class-variance-authority';
 
 import { cn } from '../../lib/utils';
 
-const H1Variants = cva('text-balance lg:text-6xl text-4xl', {
-  variants: {
-    textColor: {
-      default: 'text-slate-900 dark:text-white'
+const H1Variants = cva(
+  'font-anekLatin text-balance lg:text-8xl md:text-6xl text-4xl text-slate-800 dark:text-slate-100',
+  {
+    variants: {
+      textColor: {
+        default: ''
+      }
+    },
+    defaultVariants: {
+      textColor: 'default'
     }
-  },
-  defaultVariants: {
-    textColor: 'default'
   }
-});
+);
 
 export interface H1Props
   extends React.HTMLProps<HTMLDivElement>,

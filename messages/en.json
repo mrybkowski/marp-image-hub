@@ -1,5 +1,44 @@
 {
   "app": {
-    "name": "imagehub.pl [en]"
+    "name": "imagehub.pl",
+    "author": "marp.io"
+  },
+  "hero": {
+    "subtitle": "A solution created with a passion for photography",
+    "title": "Professional Tool for Photographers",
+    "description": "Manage your photo database, share your work without intermediaries and establish partnerships with clients and other photographers. Regardless of your level of expertise, you'll find tools here that will enhance the quality of your work!",
+    "action": {
+      "signUp": "Subscribe to the waiting list",
+      "about": "Who We Are"
+    },
+    "info": {
+      "newsletter": {
+        "title": "Newsletter",
+        "quantity": "30k+",
+        "description": "Enrolled Photographers Involved in Creating a Customized Solution"
+      },
+      "visits": {
+        "title": "Visits",
+        "quantity": "150k+",
+        "description": "Number of Unique Entries"
+      },
+      "participation": {
+        "title": "Engagement",
+        "quantity": "15 min",
+        "description": "Average Session Time Per Page"
+      },
+      "rate": {
+        "quantity": "4.8",
+        "description": "Average Customer Rating"
+      },
+      "functions": {
+        "quantity": "25",
+        "description": "Number of Functions"
+      },
+      "users": {
+        "quantity": "50k+",
+        "description": "Registered Users"
+      }
+    }
   }
 }

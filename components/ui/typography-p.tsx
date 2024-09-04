@@ -6,7 +6,7 @@ import { cn } from '../../lib/utils';
 const PVariants = cva('text-balance', {
   variants: {
     textColor: {
-      default: 'text-slate-700 dark:text-slate-300'
+      default: 'text-slate-700 dark:text-slate-100'
     },
     fontWeight: {
       default: 'font-normal',

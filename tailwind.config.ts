@@ -9,6 +9,24 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        'move-slow': 'move 10s ease-in-out infinite',
+        'pulse-slow': 'pulse 15s ease-in-out infinite'
+      },
+      keyframes: {
+        move: {
+          '0%, 100%': { transform: 'translateY(0) translateX(0)' },
+          '50%': { transform: 'translateY(10px) translateX(-10px)' }
+        },
+        pulse: {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '0.7' }
+        }
+      },
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+        anekLatin: ['Anek Latin', 'sans-serif']
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
