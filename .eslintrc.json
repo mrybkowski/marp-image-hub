@@ -27,7 +27,7 @@
     "@typescript-eslint/member-delimiter-style": "off",
     "@typescript-eslint/no-floating-promises": "off",
     "react/react-in-jsx-scope": "off",
-    "@typescript-eslint/no-unused-vars": "warn",
+    "@typescript-eslint/no-unused-vars": "off",
     "@typescript-eslint/indent": "off",
     "@typescript-eslint/strict-boolean-expressions": "off",
     "simple-import-sort/imports": [

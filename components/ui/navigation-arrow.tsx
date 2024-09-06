@@ -1,4 +1,4 @@
-import { useTranslation } from 'react-i18next';
+import { useTranslations } from 'next-intl';
 import { Button } from './button';
 import { ArrowLeftIcon, ArrowRightIcon } from '@radix-ui/react-icons';
 
@@ -15,7 +15,7 @@ function NavigationArrow({
   isArrowBack,
   isArrowForward
 }: INavigationArrow) {
-  const { t } = useTranslation();
+  const t = useTranslations();
 
   return (
     <Button
