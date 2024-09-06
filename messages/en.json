@@ -40,5 +40,13 @@
         "description": "Registered Users"
       }
     }
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "A Few Words About Our Activities",
+    "content": {
+      "0": "Our company is a team of technology enthusiasts who are committed to creating applications that solve real-world problems. We specialise in providing modern solutions that not only meet the needs of users, but also please the eye with an aesthetic and intuitive interface.",
+      "1": "Our applications feature a thoughtful and clear UI that makes it easy to use advanced features, regardless of the user's level of expertise. We make technology more accessible and everyday challenges easier to overcome."
+    }
   }
 }

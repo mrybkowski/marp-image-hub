@@ -1,3 +1,5 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
 import { StarIcon } from '@radix-ui/react-icons';
 
@@ -8,37 +10,29 @@ import { P } from '@/components/ui/typography-p';
 
 import InfoCard from './InfoCard';
 import BackgroundLayer from './BackgroundLayer';
+import { useScrollToSection } from '@/hooks';
 
 export default function Hero() {
   const t = useTranslations('hero');
 
-  const gradient = {
-    green:
-      'radial-gradient(circle, rgba(177,219,97,1) 0%, rgba(177,219,97,0) 100%)',
-    purple:
-      'radial-gradient(circle, rgba(191,177,245,1) 0%, rgba(191,177,245,0) 100%)'
-  };
+  const scrollToAboutSection = useScrollToSection('about');
 
   return (
     <section
       id="hero"
       className="xl:h-full xl:py-0 py-[100px] relative overflow-hidden">
       <BackgroundLayer
-        className="top-[-25%] right-[-40%] w-[80%] h-[80%]"
-        gradient={gradient.purple}
+        className="top-[-35%] right-[-40%] w-[80%] h-[80%]"
+        gradient={'purple'}
       />
       <BackgroundLayer
         className="top-[-10%] left-[-0%] w-[90%] h-[90%]"
-        gradient={gradient.green}
-      />
-      <BackgroundLayer
-        className="bottom-[-0%] right-[-25%] w-[50%] h-[50%]"
-        gradient={gradient.green}
+        gradient={'green'}
       />
 
       <Container className="flex flex-col xl:flex-row h-full z-10 relative gap-10">
         <div className="flex flex-col justify-center xl:w-1/2 w-full gap-5">
-          <P className="flex flex-row items-center justify-center gap-2 w-fit py-2 px-7 lg:text-xl text:md dark:bg-white/25 bg-white rounded-full border border-primary">
+          <P className="flex flex-row items-center justify-center gap-2 w-fit py-2 px-7 lg:text-xl text:md dark:bg-white/25 bg-white rounded-[40px] border border-primary">
             <StarIcon />
             {t('subtitle')}
           </P>
@@ -46,7 +40,9 @@ export default function Hero() {
           <P className="lg:text-3xl text-2xl font-light">{t('description')}</P>
           <div className="flex flex-row gap-5 pt-10">
             <Button>{t('action.signUp')}</Button>
-            <Button variant="outline">{t('action.about')}</Button>
+            <Button onClick={() => scrollToAboutSection()} variant="outline">
+              {t('action.about')}
+            </Button>
           </div>
         </div>
 

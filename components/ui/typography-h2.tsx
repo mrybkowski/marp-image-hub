@@ -3,7 +3,7 @@ import { cva, type VariantProps } from 'class-variance-authority';
 
 import { cn } from '../../lib/utils';
 
-const H2Variants = cva('text-balance font-bold', {
+const H2Variants = cva('text-balance text-xl', {
   variants: {
     textColor: {
       default: 'text-slate-800 dark:text-white'

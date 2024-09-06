@@ -40,5 +40,13 @@
         "description": "Zarejestrowanych Użytkowników"
       }
     }
+  },
+  "about": {
+    "title": "O nas",
+    "subtitle": "Parę Słów o Naszej Działalności",
+    "content": {
+      "0": "Nasza firma to zespół pasjonatów technologii, który z zaangażowaniem tworzy aplikacje rozwiązujące realne problemy. Specjalizujemy się w dostarczaniu nowoczesnych rozwiązań, które nie tylko spełniają potrzeby użytkowników, ale również cieszą oko estetycznym i intuicyjnym interfejsem.",
+      "1": "Nasze aplikacje cechują się przemyślanym i czytelnym UI, które ułatwia korzystanie z zaawansowanych funkcji, niezależnie od poziomu zaawansowania użytkownika. Dzięki nam technologia staje się bardziej dostępna, a codzienne wyzwania są łatwiejsze do pokonania."
+    }
   }
 }
