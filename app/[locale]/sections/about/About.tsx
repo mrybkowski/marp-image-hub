@@ -21,7 +21,7 @@ export default function About() {
       <Container
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}>
-        <div className="overflow-hidden relative flex flex-col md:flex-row gap-10 rounded-[40px] p-10 my-10 border border-slate-800 dark:border-slate-400">
+        <div className="overflow-hidden relative flex flex-col md:flex-row rounded-[40px] p-5 md:p-10 border border-slate-800 dark:border-slate-400">
           <div
             className={`${isHovered ? 'dark:visible' : 'dark:invisible'} invisible`}>
             <BackgroundLayer
@@ -34,7 +34,7 @@ export default function About() {
             />
           </div>
 
-          <div className="md:w-1/2 w-full relative flex flex-col gap-2">
+          <div className="md:w-1/2 w-full relative flex flex-col gap-2 pb-5 md:pb-0">
             <div className="flex flex-row items-center gap-2">
               <div className="p-3 bg-slate-800 rounded-full">
                 <CameraIcon color="white" className="h-5 w-5" />
