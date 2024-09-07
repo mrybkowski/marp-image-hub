@@ -32,13 +32,13 @@ export default function Hero() {
 
       <Container className="flex flex-col xl:flex-row h-full z-10 relative gap-10">
         <div className="flex flex-col justify-center xl:w-1/2 w-full gap-5">
-          <P className="flex flex-row items-center justify-center gap-2 w-fit py-2 px-7 lg:text-xl text:md dark:bg-white/25 bg-white rounded-[40px] border border-primary">
+          <P className="flex flex-row items-center justify-center gap-2 w-fit py-2 px-7 lg:text-xl dark:bg-white/25 bg-white rounded-[40px] border border-primary">
             <StarIcon />
             {t('subtitle')}
           </P>
           <H1>{t('title')}</H1>
           <P className="lg:text-3xl text-2xl font-light">{t('description')}</P>
-          <div className="flex flex-row gap-5 pt-10">
+          <div className="flex flex-col md:flex-row gap-5 pt-10">
             <Button>{t('action.signUp')}</Button>
             <Button onClick={() => scrollToAboutSection()} variant="outline">
               {t('action.about')}
