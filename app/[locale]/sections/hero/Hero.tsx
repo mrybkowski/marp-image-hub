@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { CameraIcon, StarIcon } from '@radix-ui/react-icons';
+import { CameraIcon } from '@radix-ui/react-icons';
 
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/ui/container';
@@ -20,7 +20,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="xl:h-full xl:py-0 py-[100px] relative overflow-hidden rounded-[40px] m-5 md:m-10">
+      className="xl:h-full xl:py-0 py-[100px] relative overflow-hidden md:rounded-[40px] m-0 md:m-10">
       <BackgroundLayer
         className="top-[-35%] right-[-30%] w-[80%] h-[80%]"
         gradient={'purple'}

@@ -4,7 +4,7 @@ import { cva, type VariantProps } from 'class-variance-authority';
 import { cn } from '../../lib/utils';
 
 const H1Variants = cva(
-  'font-anekLatin text-balance lg:text-8xl text-7xl text-slate-800 dark:text-slate-100',
+  'font-anekLatin text-balance lg:text-8xl md:text-7xl text-5xl text-slate-800 dark:text-slate-100',
   {
     variants: {
       textColor: {
