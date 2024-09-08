@@ -17,11 +17,11 @@ export default function About() {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <section id="about">
+    <section id="about" className="py-10">
       <Container
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}>
-        <div className="overflow-hidden relative flex flex-col md:flex-row rounded-[40px] p-5 md:p-10 border border-slate-800 dark:border-slate-400">
+        <div className="overflow-hidden relative flex flex-col md:flex-row rounded-[40px] p-5 md:p-10 border border-slate-900 dark:border-slate-400">
           <div
             className={`${isHovered ? 'dark:visible' : 'dark:invisible'} invisible`}>
             <BackgroundLayer
@@ -36,7 +36,7 @@ export default function About() {
 
           <div className="md:w-1/2 w-full relative flex flex-col gap-2 pb-5 md:pb-0">
             <div className="flex flex-row items-center gap-2">
-              <div className="p-3 bg-slate-800 rounded-full">
+              <div className="p-3 bg-slate-900 rounded-full border border-slate-400">
                 <CameraIcon color="white" className="h-5 w-5" />
               </div>
               <H2>{t('title')}</H2>

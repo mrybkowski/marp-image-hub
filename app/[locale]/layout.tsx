@@ -18,7 +18,7 @@ export default async function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
-      <body>
+      <body className="select-none">
         <AOSInit />
         <ThemeProvider>
           <TranslationProvider>{children}</TranslationProvider>

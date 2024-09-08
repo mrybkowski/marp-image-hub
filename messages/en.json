@@ -1,12 +1,12 @@
 {
   "app": {
-    "name": "imagehub.pl",
+    "name": "photomarp.com",
     "author": "marp.io"
   },
   "hero": {
     "subtitle": "A solution created with a passion for photography",
     "title": "Professional Tool for Photographers",
-    "description": "Manage your photo database, share your work without intermediaries and establish partnerships with clients and other photographers. Regardless of your level of expertise, you'll find tools here that will enhance the quality of your work!",
+    "description": "Manage your photo database, share your work without intermediaries and establish partnerships with clients and other photographers.",
     "action": {
       "signUp": "Subscribe to the waiting list",
       "about": "Who We Are"

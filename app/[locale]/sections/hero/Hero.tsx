@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { StarIcon } from '@radix-ui/react-icons';
+import { CameraIcon, StarIcon } from '@radix-ui/react-icons';
 
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/ui/container';
@@ -13,35 +13,37 @@ import BackgroundLayer from './BackgroundLayer';
 import { useScrollToSection } from '@/hooks';
 
 export default function Hero() {
-  const t = useTranslations('hero');
+  const t = useTranslations();
 
   const scrollToAboutSection = useScrollToSection('about');
 
   return (
     <section
       id="hero"
-      className="xl:h-full xl:py-0 py-[100px] relative overflow-hidden">
+      className="xl:h-full xl:py-0 py-[100px] relative overflow-hidden rounded-[40px] m-5 md:m-10">
       <BackgroundLayer
-        className="top-[-35%] right-[-40%] w-[80%] h-[80%]"
+        className="top-[-35%] right-[-30%] w-[80%] h-[80%]"
         gradient={'purple'}
       />
       <BackgroundLayer
-        className="top-[-10%] left-[-0%] w-[90%] h-[90%]"
+        className="top-[-20%] left-[-30%] w-[100%] h-[100%]"
         gradient={'green'}
       />
 
       <Container className="flex flex-col xl:flex-row h-full z-10 relative gap-10">
         <div className="flex flex-col justify-center xl:w-1/2 w-full gap-5">
-          <P className="flex flex-row items-center justify-center gap-2 w-fit py-2 px-7 lg:text-xl dark:bg-white/25 bg-white rounded-[40px] border border-primary">
-            <StarIcon />
-            {t('subtitle')}
+          <P className="flex flex-row gap-2 items-center lg:text-3xl text-2xl">
+            <CameraIcon className="h-10 w-10" />
+            {t('app.name')}
           </P>
-          <H1>{t('title')}</H1>
-          <P className="lg:text-3xl text-2xl font-light">{t('description')}</P>
-          <div className="flex flex-col md:flex-row gap-5 pt-10">
-            <Button>{t('action.signUp')}</Button>
+          <H1>{t('hero.title')}</H1>
+          <P className="lg:text-3xl text-2xl font-light">
+            {t('hero.description')}
+          </P>
+          <div className="flex flex-col md:flex-row gap-5 pt-5">
+            <Button>{t('hero.action.signUp')}</Button>
             <Button onClick={() => scrollToAboutSection()} variant="outline">
-              {t('action.about')}
+              {t('hero.action.about')}
             </Button>
           </div>
         </div>
@@ -49,34 +51,34 @@ export default function Hero() {
         <div className="h-full flex items-center justify-center xl:w-1/2 w-full">
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 w-full">
             <InfoCard
-              title={t('info.newsletter.title')}
-              quantity={t('info.newsletter.quantity')}
-              description={t('info.newsletter.description')}
+              title={t('hero.info.newsletter.title')}
+              quantity={t('hero.info.newsletter.quantity')}
+              description={t('hero.info.newsletter.description')}
             />
             <div className="grid grid-cols-1 gap-4 lg:grid-rows-2 md:grid-cols-2 lg:grid-cols-1">
               <InfoCard
-                title={t('info.visits.title')}
-                quantity={t('info.visits.quantity')}
-                description={t('info.visits.description')}
+                title={t('hero.info.visits.title')}
+                quantity={t('hero.info.visits.quantity')}
+                description={t('hero.info.visits.description')}
               />
               <InfoCard
-                title={t('info.participation.title')}
-                quantity={t('info.participation.quantity')}
-                description={t('info.participation.description')}
+                title={t('hero.info.participation.title')}
+                quantity={t('hero.info.participation.quantity')}
+                description={t('hero.info.participation.description')}
               />
             </div>
             <div className="col-span-1 lg:col-span-2 grid lg:grid-cols-3 md:grid-cols-2 gap-4 w-full">
               <InfoCard
-                quantity={t('info.rate.quantity')}
-                description={t('info.rate.description')}
+                quantity={t('hero.info.rate.quantity')}
+                description={t('hero.info.rate.description')}
               />
               <InfoCard
-                quantity={t('info.functions.quantity')}
-                description={t('info.functions.description')}
+                quantity={t('hero.info.functions.quantity')}
+                description={t('hero.info.functions.description')}
               />
               <InfoCard
-                quantity={t('info.users.quantity')}
-                description={t('info.users.description')}
+                quantity={t('hero.info.users.quantity')}
+                description={t('hero.info.users.description')}
               />
             </div>
           </div>
