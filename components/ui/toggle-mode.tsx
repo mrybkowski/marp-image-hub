@@ -1,9 +1,9 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { MoonIcon, SunIcon } from '@radix-ui/react-icons';
-import { useTheme } from 'next-themes';
 import * as Tooltip from '@radix-ui/react-tooltip';
+import { useTheme } from 'next-themes';
 
 import { Button } from '@/components/ui/button';
 

@@ -1,6 +1,7 @@
-import { useTranslations } from 'next-intl';
-import { Button } from './button';
 import { ArrowLeftIcon, ArrowRightIcon } from '@radix-ui/react-icons';
+import { useTranslations } from 'next-intl';
+
+import { Button } from './button';
 
 interface INavigationArrow {
   onClick?: () => void;
