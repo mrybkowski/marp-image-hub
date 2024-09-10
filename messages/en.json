@@ -1,4 +1,23 @@
 {
+  "form": {
+    "description": {
+      "newsletter": "The email address to which we will send you notifications.",
+      "acceptNewsletter": "Acceptance of the newsletter terms and conditions is required. Unsubscribing can be done at any time."
+    },
+    "placeholder": {
+      "email": "Enter your email address"
+    },
+    "label": {
+      "email": "E-mail address",
+      "acceptNewsletter": "I accept the terms and conditions of the newsletter"
+    },
+    "action": {
+      "submit": "Send"
+    },
+    "message": {
+      "invalidEmail": "Incorrect email format"
+    }
+  },
   "app": {
     "name": "photomarp.com",
     "author": "marp.io"
@@ -111,6 +130,13 @@
           "description": "creative organization description 3"
         }
       }
+    }
+  },
+  "newsletter": {
+    "title": "Join the Newsletter",
+    "subtitle": "Subscribe to the waiting list",
+    "content": {
+      "0": "Our aim is to better understand your needs and expectations in order to create functionalities that really support your work. As part of this newsletter, we want to find out what specific solutions are most important to you and under what conditions you would like to use them. We are also keen to find out your opinion on the new features and to see if photographers will be happy to use them. Thanks to your involvement, we can create tools that are perfectly tailored to your needs."
     }
   }
 }

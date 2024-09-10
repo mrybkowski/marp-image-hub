@@ -1,21 +1,22 @@
 'use client';
 
+import { Camera } from 'lucide-react';
 import { useTranslations } from 'next-intl';
-import { CameraIcon } from '@radix-ui/react-icons';
+
+import BackgroundLayer from './BackgroundLayer';
+import InfoCard from './InfoCard';
 
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/ui/container';
 import { H1 } from '@/components/ui/typography-h1';
 import { P } from '@/components/ui/typography-p';
-
-import InfoCard from './InfoCard';
-import BackgroundLayer from './BackgroundLayer';
 import { useScrollToSection } from '@/hooks';
 
 export default function Hero() {
   const t = useTranslations();
 
   const scrollToAboutSection = useScrollToSection('about');
+  const scrollToNewsletterSection = useScrollToSection('newsletter');
 
   return (
     <section
@@ -33,7 +34,7 @@ export default function Hero() {
       <Container className="flex flex-col xl:flex-row h-full z-10 relative gap-10">
         <div className="flex flex-col justify-center xl:w-1/2 w-full gap-5">
           <P className="flex flex-row gap-2 items-center lg:text-3xl text-2xl">
-            <CameraIcon className="h-10 w-10" />
+            <Camera className="h-10 w-10" />
             {t('app.name')}
           </P>
           <H1>{t('hero.title')}</H1>
@@ -41,7 +42,9 @@ export default function Hero() {
             {t('hero.description')}
           </P>
           <div className="flex flex-col md:flex-row gap-5 pt-5">
-            <Button>{t('hero.action.signUp')}</Button>
+            <Button onClick={() => scrollToNewsletterSection()}>
+              {t('hero.action.signUp')}
+            </Button>
             <Button onClick={() => scrollToAboutSection()} variant="outline">
               {t('hero.action.about')}
             </Button>

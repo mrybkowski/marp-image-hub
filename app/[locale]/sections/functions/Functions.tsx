@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { DashboardIcon } from '@radix-ui/react-icons';
+import { LayoutDashboardIcon } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 import { Button } from '@/components/ui/button';
@@ -85,7 +85,7 @@ export default function Functions() {
         <Container>
           <div className="flex flex-row items-center gap-2">
             <div className="p-3 bg-slate-900 rounded-full border border-slate-400">
-              <DashboardIcon color="white" className="h-5 w-5" />
+              <LayoutDashboardIcon color="white" className="h-5 w-5" />
             </div>
             <H2>{t('functions.title')}</H2>
           </div>
@@ -94,18 +94,21 @@ export default function Functions() {
           </P>
           <div className="flex flex-col md:flex-row gap-5 my-5">
             <Button
+              variant="tertiary"
               onClick={() => setActiveData(individualCreator)}
-              className={`${activeData === individualCreator ? '' : 'bg-primary/30'}`}>
+              className={`${activeData === individualCreator ? '' : 'bg-slate-900/30'}`}>
               {t('functions.groups.individualCreator.title')}
             </Button>
             <Button
+              variant="tertiary"
               onClick={() => setActiveData(professionalOrganizer)}
-              className={`${activeData === professionalOrganizer ? '' : 'bg-primary/30'}`}>
+              className={`${activeData === professionalOrganizer ? '' : 'bg-slate-900/30'}`}>
               {t('functions.groups.professionalOrganizer.title')}
             </Button>
             <Button
+              variant="tertiary"
               onClick={() => setActiveData(creativeOrganization)}
-              className={`${activeData === creativeOrganization ? '' : 'bg-primary/30'}`}>
+              className={`${activeData === creativeOrganization ? '' : 'bg-slate-900/30'}`}>
               {t('functions.groups.creativeOrganization.title')}
             </Button>
           </div>

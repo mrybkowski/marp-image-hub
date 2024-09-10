@@ -1,7 +1,9 @@
 import { About } from './sections/about';
 import { Functions } from './sections/functions';
 import { Hero } from './sections/hero';
+import { Newsletter } from './sections/newsletter';
 
+import { Toaster } from '@/components/ui/toaster';
 import { ToggleMode } from '@/components/ui/toggle-mode';
 
 export default function Home() {
@@ -14,6 +16,8 @@ export default function Home() {
         <Hero />
         <About />
         <Functions />
+        <Newsletter />
+        <Toaster />
       </main>
     </>
   );
