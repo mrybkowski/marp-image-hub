@@ -48,5 +48,69 @@
       "0": "Our company is a team of technology enthusiasts who are committed to creating applications that solve real-world problems. We specialise in providing modern solutions that not only meet the needs of users, but also please the eye with an aesthetic and intuitive interface.",
       "1": "Our applications feature a thoughtful and clear UI that makes it easy to use advanced features, regardless of the user's level of expertise. We make technology more accessible and everyday challenges easier to overcome."
     }
+  },
+  "functions": {
+    "title": "Kluczowe Funkcjonalności",
+    "subtitle": "Dostosowane do Specyficznych Grup Docelowych",
+    "chooseGroup": "Wybierz grupę docelową",
+    "groups": {
+      "individualCreator": {
+        "title": "Individual Creator",
+        "0": {
+          "title": "individual creator title 0",
+          "description": "individual creator description 0"
+        },
+        "1": {
+          "title": "individual creator title 1",
+          "description": "individual creator description 1"
+        },
+        "2": {
+          "title": "individual creator title 2",
+          "description": "individual creator description 2"
+        },
+        "3": {
+          "title": "individual creator title 3",
+          "description": "individual creator description 3"
+        }
+      },
+      "professionalOrganizer": {
+        "title": "Professional Organizer",
+        "0": {
+          "title": "professional organizer title 0",
+          "description": "professional organizer description 0"
+        },
+        "1": {
+          "title": "professional organizer title 1",
+          "description": "professional organizer description 1"
+        },
+        "2": {
+          "title": "professional organizer title 2",
+          "description": "professional organizer description 2"
+        },
+        "3": {
+          "title": "professional organizer title 3",
+          "description": "professional organizer description 3"
+        }
+      },
+      "creativeOrganization": {
+        "title": "Creative Organization",
+        "0": {
+          "title": "creative organization title 0",
+          "description": "creative organization description 0"
+        },
+        "1": {
+          "title": "creative organization title 1",
+          "description": "creative organization description 1"
+        },
+        "2": {
+          "title": "creative organization title 2",
+          "description": "creative organization description 2"
+        },
+        "3": {
+          "title": "creative organization title 3",
+          "description": "creative organization description 3"
+        }
+      }
+    }
   }
 }

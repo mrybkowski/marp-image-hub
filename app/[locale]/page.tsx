@@ -1,6 +1,8 @@
-import { ToggleMode } from '@/components/ui/toggle-mode';
-import { Hero } from './sections/hero';
 import { About } from './sections/about';
+import { Functions } from './sections/functions';
+import { Hero } from './sections/hero';
+
+import { ToggleMode } from '@/components/ui/toggle-mode';
 
 export default function Home() {
   return (
@@ -11,6 +13,7 @@ export default function Home() {
       <main className="h-full">
         <Hero />
         <About />
+        <Functions />
       </main>
     </>
   );

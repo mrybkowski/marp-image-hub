@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
-import { AOSInit, ThemeProvider, TranslationProvider } from '@/providers';
-
 import './globals.css';
+
+import { AOSInit, ThemeProvider, TranslationProvider } from '@/providers';
 
 export const metadata: Metadata = {
   title: 'Image Hub - profesjonalne narzędzie dla fotografów',
@@ -18,7 +18,7 @@ export default async function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
-      <body className="select-none">
+      <body className="select-none bg-background">
         <AOSInit />
         <ThemeProvider>
           <TranslationProvider>{children}</TranslationProvider>
