@@ -2,7 +2,6 @@
 
 import {
   Building2Icon,
-  Facebook,
   FacebookIcon,
   InstagramIcon,
   LinkedinIcon
@@ -23,7 +22,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="py-10 bg-primary/20 dark:bg-foreground rounded-[100px] border-y dark:border-none border-foreground">
+      className="py-10 bg-primary/20 dark:bg-foreground rounded-[100px]">
       <div data-aos="fade-up">
         <Container className="flex gap-10">
           <div className="md:w-1/2 w-full flex flex-col gap-2 pb-5 md:pb-0">

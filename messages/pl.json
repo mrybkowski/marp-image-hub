@@ -76,8 +76,8 @@
     }
   },
   "functions": {
-    "title": "Kluczowe Funkcjonalności",
-    "subtitle": "Dostosowane do Specyficznych Grup Docelowych",
+    "title": "Funkcjonalności",
+    "subtitle": "Dostosowane do specyficznych grup docelowych",
     "chooseGroup": "Wybierz grupę docelową",
     "groups": {
       "individualCreator": {
