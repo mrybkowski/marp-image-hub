@@ -85,7 +85,7 @@ export default function Functions() {
         <Container className="flex gap-10">
           <div>
             <div className="flex flex-row items-center gap-2">
-              <div className="p-3 bg-gradient-to-tr from-primary to-secondary rounded-full border border-slate-900">
+              <div className="p-3 bg-gradient-to-tr from-primary to-secondary rounded-full border border-descructive">
                 <LayoutDashboardIcon color="black" className="h-5 w-5" />
               </div>
               <H2>{t('functions.title')}</H2>
@@ -128,7 +128,7 @@ export default function Functions() {
                     key={index}
                     className="pl-1 md:basis-1/2 lg:basis-1/3">
                     <div className="p-5 h-full">
-                      <div className="flex flex-col gap-2 p-5 md:p-10 border-y dark:border-slate-400 border-slate-900 rounded-[40px] bg-white dark:bg-foreground/50 h-full">
+                      <div className="flex flex-col gap-2 p-5 md:p-10 border-y dark:border-slate-400 border-slate-900 rounded-[40px] bg-white dark:bg-destructive/50 h-full">
                         <H3 className="text-2xl font-semibold">
                           {t(element.title)}
                         </H3>
