@@ -2,6 +2,7 @@ import { About } from './sections/about';
 import { Functions } from './sections/functions';
 import { Hero } from './sections/hero';
 import { Newsletter } from './sections/newsletter';
+import { Tech } from './sections/tech';
 
 import { Toaster } from '@/components/ui/toaster';
 import { ToggleMode } from '@/components/ui/toggle-mode';
@@ -14,6 +15,7 @@ export default function Home() {
       </div>
       <main className="h-full">
         <Hero />
+        <Tech />
         <About />
         <Functions />
         <Newsletter />

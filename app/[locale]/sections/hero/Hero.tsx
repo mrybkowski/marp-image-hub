@@ -21,13 +21,13 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="xl:h-full xl:py-0 py-[100px] relative overflow-hidden md:rounded-[40px] m-0 md:m-10">
+      className="xl:h-full xl:py-0 py-[100px] relative overflow-hidden rounded-b-[100px] border-y border-foreground dark:border-none">
       <BackgroundLayer
-        className="top-[-35%] right-[-30%] w-[80%] h-[80%]"
+        className="dark:top-[50%] top-[10%] -right-[50%] w-[100%] h-[100%]"
         gradient={'purple'}
       />
       <BackgroundLayer
-        className="top-[-20%] left-[-30%] w-[100%] h-[100%]"
+        className="dark:top-[50%] top-[10%] -left-[50%] w-[100%] h-[100%]"
         gradient={'green'}
       />
 

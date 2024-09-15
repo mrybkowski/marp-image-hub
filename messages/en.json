@@ -1,83 +1,90 @@
 {
   "form": {
     "description": {
-      "newsletter": "The email address to which we will send you notifications.",
-      "acceptNewsletter": "Acceptance of the newsletter terms and conditions is required. Unsubscribing can be done at any time."
+      "newsletter": "Email address to which we will send notifications.",
+      "acceptNewsletter": "Acceptance of the newsletter terms is required. You can unsubscribe at any time."
     },
     "placeholder": {
-      "email": "Enter your email address"
+      "email": "Enter email address"
     },
     "label": {
-      "email": "E-mail address",
-      "acceptNewsletter": "I accept the terms and conditions of the newsletter"
+      "email": "Email address",
+      "acceptNewsletter": "I accept the terms of the newsletter"
     },
     "action": {
       "submit": "Send"
     },
     "message": {
-      "invalidEmail": "Incorrect email format"
+      "invalidEmail": "Invalid email format"
     }
   },
   "app": {
-    "name": "photomarp.com",
-    "author": "marp.io"
+    "name": "photomarp",
+    "author": "marp.io",
+    "socialmedia": {
+      "description": "Stay up-to-date, follow us:",
+      "link": "/photomarp"
+    }
   },
   "hero": {
     "subtitle": "A solution created with a passion for photography",
     "title": "Professional Tool for Photographers",
-    "description": "Manage your photo database, share your work without intermediaries and establish partnerships with clients and other photographers.",
+    "description": "Manage your photo database, share your work without intermediaries, and connect with clients and other photographers.",
     "action": {
-      "signUp": "Waiting list",
-      "about": "Who We Are"
+      "signUp": "Waiting List",
+      "about": "About the Project"
     },
     "info": {
       "newsletter": {
         "title": "Newsletter",
         "quantity": "30k+",
-        "description": "Enrolled Photographers Involved in Creating a Customized Solution"
+        "description": "Engaged photographers involved in creating a tailored solution"
       },
       "visits": {
         "title": "Visits",
         "quantity": "150k+",
-        "description": "Number of Unique Entries"
+        "description": "Number of unique entries"
       },
       "participation": {
         "title": "Engagement",
         "quantity": "15 min",
-        "description": "Average Session Time Per Page"
+        "description": "Average session time on the site"
       },
       "rate": {
         "quantity": "4.8",
-        "description": "Average Customer Rating"
+        "description": "Average customer rating"
       },
       "functions": {
         "quantity": "25",
-        "description": "Number of Functions"
+        "description": "Number of functionalities"
       },
       "users": {
         "quantity": "50k+",
-        "description": "Registered Users"
+        "description": "Registered users"
       }
     }
   },
   "about": {
-    "title": "About",
-    "subtitle": "A Few Words About Our Activities",
+    "title": "About Us",
+    "subtitle": "A few words about the project",
     "content": {
-      "0": "Our company is a team of technology enthusiasts who are committed to creating applications that solve real-world problems. We specialise in providing modern solutions that not only meet the needs of users, but also please the eye with an aesthetic and intuitive interface.",
-      "1": "Our applications feature a thoughtful and clear UI that makes it easy to use advanced features, regardless of the user's level of expertise. We make technology more accessible and everyday challenges easier to overcome."
+      "0": "Our company is a team of technology enthusiasts dedicated to creating applications that solve real problems. We specialize in delivering modern solutions that not only meet user needs but also delight with their aesthetic and intuitive interface.",
+      "1": "Our applications feature a thoughtful and clear UI, making it easy to use advanced functions, regardless of the user's skill level. With us, technology becomes more accessible, and everyday challenges are easier to overcome."
+    },
+    "action": {
+      "functions": "Features we are working on together"
     }
   },
   "functions": {
-    "title": "Kluczowe Funkcjonalności",
-    "subtitle": "Dostosowane do Specyficznych Grup Docelowych",
-    "chooseGroup": "Wybierz grupę docelową",
+    "title": "Key Features",
+    "subtitle": "Tailored to Specific Target Groups",
+    "chooseGroup": "Select target group",
     "groups": {
       "individualCreator": {
         "title": "Individual Creator",
         "0": {
           "title": "individual creator title 0",
-          "description": "individual creator description 0"
+          "description": "individual creator description 0individual creator description 0individual creator description 0individual creator description 0"
         },
         "1": {
           "title": "individual creator title 1",
@@ -134,9 +141,9 @@
   },
   "newsletter": {
     "title": "Join the Newsletter",
-    "subtitle": "Subscribe to the waiting list",
+    "subtitle": "Sign up for the waiting list",
     "content": {
-      "0": "Our aim is to better understand your needs and expectations in order to create functionalities that really support your work. As part of this newsletter, we want to find out what specific solutions are most important to you and under what conditions you would like to use them. We are also keen to find out your opinion on the new features and to see if photographers will be happy to use them. Thanks to your involvement, we can create tools that are perfectly tailored to your needs."
+      "0": "Our goal is to better understand your needs and expectations to create features that truly support your work. Through this newsletter, we want to learn what specific solutions are most important to you and under what conditions you would like to use them. We also want to hear your opinion on new features and see if photographers will be eager to use them. With your involvement, we can create tools that are perfectly tailored to your needs."
     }
   }
 }
