@@ -1,15 +1,11 @@
 {
   "form": {
-    "description": {
-      "newsletter": "Adres email, na który będziemy wysyłać Ci powiadomienia.",
-      "acceptNewsletter": "Akceptacja warunków newsletter'a jest wymagana. Wypisanie można zrealizować w każdym momencie."
-    },
     "placeholder": {
       "email": "Wprowadź adres email"
     },
     "label": {
       "email": "Adres email",
-      "acceptNewsletter": "Akceptuję warunki newsletter'a"
+      "acceptNewsletter": "Akceptuję warunki polityki prywatności newsletter'a."
     },
     "action": {
       "submit": "Wyślij"

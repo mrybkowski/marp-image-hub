@@ -22,7 +22,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="py-10 bg-primary/20 dark:bg-foreground rounded-[100px]">
+      className="py-10 bg-primary/20 dark:bg-foreground md:rounded-[100px] rounded-[40px]">
       <div data-aos="fade-up">
         <Container className="flex gap-10">
           <div className="md:w-1/2 w-full flex flex-col gap-2 pb-5 md:pb-0">
@@ -37,7 +37,7 @@ export default function About() {
             </P>
           </div>
           <div className="flex md:flex-row flex-col items-center gap-10">
-            <div className="bg-primary/50 dark:bg-background flex flex-col md:flex-row rounded-[40px] p-5 md:p-10 border-y dark:border-primary border-primary-foreground w-full lg:w-7/12">
+            <div className="bg-primary/50 dark:bg-background flex flex-col md:flex-row rounded-[40px] p-10 border-y dark:border-primary border-primary-foreground w-full lg:w-7/12">
               <div className="flex flex-col gap-5">
                 <P>{t('about.content.0')}</P>
                 <P>{t('about.content.1')}</P>

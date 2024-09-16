@@ -21,7 +21,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="xl:h-full xl:py-0 py-[100px] relative overflow-hidden rounded-b-[100px] border-y border-foreground dark:border-none">
+      className="xl:h-full xl:py-0 py-[100px] relative overflow-hidden md:rounded-b-[100px] rounded-b-[40px] border-y border-foreground dark:border-none">
       <BackgroundLayer
         className="dark:top-[50%] top-[10%] -right-[50%] w-[100%] h-[100%]"
         gradient={'purple'}

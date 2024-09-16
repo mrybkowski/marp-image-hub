@@ -69,9 +69,6 @@ export default function NewsletterForm() {
                   {...field}
                 />
               </FormControl>
-              <FormDescription>
-                {t('form.description.newsletter')}
-              </FormDescription>
               <FormMessage />
             </FormItem>
           )}
@@ -90,15 +87,12 @@ export default function NewsletterForm() {
                 />
                 {t('form.label.acceptNewsletter')}
               </FormLabel>
-              <FormDescription>
-                {t('form.description.acceptNewsletter')}
-              </FormDescription>
               <FormMessage />
             </FormItem>
           )}
         />
 
-        <Button variant="tertiary" type="submit">
+        <Button variant="secondary" type="submit">
           {t('form.action.submit')}
         </Button>
       </form>

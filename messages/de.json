@@ -1,0 +1,145 @@
+{
+  "form": {
+    "placeholder": {
+      "email": "Geben Sie Ihre E-Mail-Adresse ein"
+    },
+    "label": {
+      "email": "E-Mail-Adresse",
+      "acceptNewsletter": "Ich akzeptiere die Datenschutzbestimmungen des Newsletters."
+    },
+    "action": {
+      "submit": "Senden"
+    },
+    "message": {
+      "invalidEmail": "Ungültiges E-Mail-Format"
+    }
+  },
+  "app": {
+    "name": "photomarp",
+    "author": "marp.io",
+    "socialmedia": {
+      "description": "Bleiben Sie auf dem Laufenden, folgen Sie uns:",
+      "link": "/photomarp"
+    }
+  },
+  "hero": {
+    "subtitle": "Eine Lösung aus Leidenschaft für die Fotografie",
+    "title": "Professionelles Werkzeug für Fotografen",
+    "description": "Verwalten Sie Ihre Fotobibliothek, teilen Sie Ihre Arbeit direkt und arbeiten Sie mit Kunden und anderen Fotografen zusammen.",
+    "action": {
+      "signUp": "Warteliste",
+      "about": "Über das Projekt"
+    },
+    "info": {
+      "newsletter": {
+        "title": "Newsletter",
+        "quantity": "30k+",
+        "description": "Fotografen engagiert in der Entwicklung einer maßgeschneiderten Lösung"
+      },
+      "visits": {
+        "title": "Besuche",
+        "quantity": "150k+",
+        "description": "Anzahl der einzigartigen Besucher"
+      },
+      "participation": {
+        "title": "Engagement",
+        "quantity": "15 min",
+        "description": "Durchschnittliche Sitzungsdauer auf der Website"
+      },
+      "rate": {
+        "quantity": "4.8",
+        "description": "Durchschnittliche Kundenbewertung"
+      },
+      "functions": {
+        "quantity": "25",
+        "description": "Anzahl der Funktionen"
+      },
+      "users": {
+        "quantity": "50k+",
+        "description": "Registrierte Benutzer"
+      }
+    }
+  },
+  "about": {
+    "title": "Über uns",
+    "subtitle": "Ein paar Worte zum Projekt",
+    "content": {
+      "0": "Unser Unternehmen besteht aus einem Team von Technologie-Enthusiasten, die mit Leidenschaft Anwendungen entwickeln, die reale Probleme lösen. Wir sind darauf spezialisiert, moderne Lösungen bereitzustellen, die nicht nur die Bedürfnisse der Benutzer erfüllen, sondern auch mit einer ästhetisch ansprechenden und intuitiven Oberfläche überzeugen.",
+      "1": "Unsere Anwendungen zeichnen sich durch ein durchdachtes und klares UI aus, das die Nutzung fortschrittlicher Funktionen unabhängig vom Erfahrungsniveau des Benutzers erleichtert. Mit uns wird Technologie zugänglicher, und alltägliche Herausforderungen lassen sich leichter bewältigen."
+    },
+    "action": {
+      "functions": "Funktionen, an denen wir gemeinsam arbeiten"
+    }
+  },
+  "functions": {
+    "title": "Funktionen",
+    "subtitle": "Angepasst an spezifische Zielgruppen",
+    "chooseGroup": "Wählen Sie eine Zielgruppe",
+    "groups": {
+      "individualCreator": {
+        "title": "Individueller Schöpfer",
+        "0": {
+          "title": "individueller Schöpfer Titel 0",
+          "description": "individueller Schöpfer Beschreibung 0individueller Schöpfer Beschreibung 0individueller Schöpfer Beschreibung 0individueller Schöpfer Beschreibung 0"
+        },
+        "1": {
+          "title": "individueller Schöpfer Titel 1",
+          "description": "individueller Schöpfer Beschreibung 1"
+        },
+        "2": {
+          "title": "individueller Schöpfer Titel 2",
+          "description": "individueller Schöpfer Beschreibung 2"
+        },
+        "3": {
+          "title": "individueller Schöpfer Titel 3",
+          "description": "individueller Schöpfer Beschreibung 3"
+        }
+      },
+      "professionalOrganizer": {
+        "title": "Professioneller Organisator",
+        "0": {
+          "title": "professioneller Organisator Titel 0",
+          "description": "professioneller Organisator Beschreibung 0"
+        },
+        "1": {
+          "title": "professioneller Organisator Titel 1",
+          "description": "professioneller Organisator Beschreibung 1"
+        },
+        "2": {
+          "title": "professioneller Organisator Titel 2",
+          "description": "professioneller Organisator Beschreibung 2"
+        },
+        "3": {
+          "title": "professioneller Organisator Titel 3",
+          "description": "professioneller Organisator Beschreibung 3"
+        }
+      },
+      "creativeOrganization": {
+        "title": "Kreative Organisation",
+        "0": {
+          "title": "kreative Organisation Titel 0",
+          "description": "kreative Organisation Beschreibung 0"
+        },
+        "1": {
+          "title": "kreative Organisation Titel 1",
+          "description": "kreative Organisation Beschreibung 1"
+        },
+        "2": {
+          "title": "kreative Organisation Titel 2",
+          "description": "kreative Organisation Beschreibung 2"
+        },
+        "3": {
+          "title": "kreative Organisation Titel 3",
+          "description": "kreative Organisation Beschreibung 3"
+        }
+      }
+    }
+  },
+  "newsletter": {
+    "title": "Newsletter abonnieren",
+    "subtitle": "Melden Sie sich für die Warteliste an",
+    "content": {
+      "0": "Unser Ziel ist es, Ihre Bedürfnisse und Erwartungen besser zu verstehen, um Funktionen zu entwickeln, die Ihre Arbeit wirklich unterstützen. Mit diesem Newsletter möchten wir herausfinden, welche konkreten Lösungen Ihnen am wichtigsten sind und wie Sie diese nutzen möchten. Wir sind auch daran interessiert, Ihre Meinung zu neuen Funktionen zu hören und zu prüfen, ob Fotografen bereit sind, sie zu nutzen. Durch Ihr Engagement können wir Werkzeuge entwickeln, die perfekt auf Ihre Bedürfnisse abgestimmt sind."
+    }
+  }
+}
