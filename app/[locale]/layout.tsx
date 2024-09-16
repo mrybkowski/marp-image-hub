@@ -1,7 +1,9 @@
 import type { Metadata } from 'next';
+import { Anek_Latin, Montserrat } from 'next/font/google';
 
 import './globals.css';
 
+import { cn } from '@/lib/utils';
 import { AOSInit, ThemeProvider, TranslationProvider } from '@/providers';
 
 export const metadata: Metadata = {
@@ -11,6 +13,20 @@ export const metadata: Metadata = {
   keywords: 'image hub, narzędzie dla fotografów'
 };
 
+const montserrat = Montserrat({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-montserrat'
+});
+
+const anekLatin = Anek_Latin({
+  weight: ['400'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-anekLatin'
+});
+
 export default async function RootLayout({
   children
 }: {
@@ -18,7 +34,12 @@ export default async function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
-      <body className="select-none bg-background">
+      <body
+        className={cn(
+          montserrat.variable,
+          anekLatin.variable,
+          'select-none bg-background'
+        )}>
         <AOSInit />
         <ThemeProvider>
           <TranslationProvider>{children}</TranslationProvider>

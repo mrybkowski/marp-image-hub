@@ -24,8 +24,8 @@ const config: Config = {
         }
       },
       fontFamily: {
-        montserrat: ['Montserrat', 'sans-serif'],
-        anekLatin: ['Anek Latin', 'sans-serif']
+        montserrat: ['var(--font-montserrat)'],
+        anekLatin: ['var(--font-anekLatin)']
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
