@@ -1,17 +1,27 @@
 {
   "form": {
     "placeholder": {
-      "email": "Wprowadź adres email"
+      "email": "Wprowadź adres email",
+      "name": "Wprowadź imię",
+      "surname": "Wprowadź nazwisko",
+      "message": "Wprowadź wiadomość"
     },
     "label": {
       "email": "Adres email",
+      "name": "Imię",
+      "surname": "Nazwisko",
+      "message": "Wiadomość",
       "acceptNewsletter": "Akceptuję warunki polityki prywatności newsletter'a."
     },
     "action": {
       "submit": "Wyślij"
     },
     "message": {
-      "invalidEmail": "Nieprawidłowy format email"
+      "invalidEmail": "Nieprawidłowy format email",
+      "invalidName": "Nieprawidłowe imię",
+      "invalidSurname": "Nieprawidłowe nazwisko",
+      "invalidMessage": "Nieprawidłowa wiadomość",
+      "tooLong": "Wyrażenie za długie, popraw na krótsze"
     }
   },
   "app": {
@@ -136,10 +146,14 @@
     }
   },
   "newsletter": {
-    "title": "Dołącz do Newsletter’a",
+    "title": "Newsletter",
     "subtitle": "Zapisz się do listy oczekująych",
     "content": {
       "0": "Naszym celem jest lepsze zrozumienie Waszych potrzeb i oczekiwań, aby tworzyć funkcjonalności, które naprawdę wspierają Waszą pracę. W ramach tego newslettera chcemy dowiedzieć się, jakie konkretne rozwiązania są dla Was najważniejsze oraz na jakich zasadach chcielibyście z nich korzystać. Zależy nam także na poznaniu Waszej opinii na temat nowych funkcji i sprawdzeniu, czy fotografowie będą chętnie ich używać. Dzięki Waszemu zaangażowaniu możemy tworzyć narzędzia, które będą idealnie dopasowane do Waszych potrzeb."
     }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Skontakuj się z nami"
   }
 }

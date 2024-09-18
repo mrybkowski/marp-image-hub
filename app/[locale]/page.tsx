@@ -1,4 +1,5 @@
 import { About } from './sections/about';
+import { Contact } from './sections/contact';
 import { Functions } from './sections/functions';
 import { Hero } from './sections/hero';
 import { Newsletter } from './sections/newsletter';
@@ -19,8 +20,9 @@ export default function Home() {
         <About />
         <Functions />
         <Newsletter />
-        <Toaster />
+        <Contact />
       </main>
+      <Toaster />
     </>
   );
 }
