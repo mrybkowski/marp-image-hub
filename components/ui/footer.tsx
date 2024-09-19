@@ -24,8 +24,8 @@ export default function Footer() {
   return (
     <section
       id="footer"
-      className="py-10 bg-white bg-foreground md:rounded-t-[100px] rounded-t-[40px] relative  overflow-hidden">
-      <BackgroundLayer
+      className="py-10 bg-foreground md:rounded-t-[100px] rounded-t-[40px] relative  overflow-hidden">
+      {/* <BackgroundLayer
         className="dark:top-[50%] top-[10%] -right-[50%] w-[100%] h-[100%]"
         gradient={'green'}
         isVisible={isDarkMode}
@@ -34,7 +34,7 @@ export default function Footer() {
         className="dark:top-[50%] top-[10%] -left-[50%] w-[100%] h-[100%]"
         gradient={'purple'}
         isVisible={isDarkMode}
-      />
+      /> */}
       <Container className="flex flex-row flex-wrap relative">
         <div className="flex flex-col w-full lg:w-4/12 gap-5">
           <P className="flex flex-row gap-2 items-center lg:text-3xl text-2xl text-white">
