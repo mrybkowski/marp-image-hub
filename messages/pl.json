@@ -26,16 +26,19 @@
   },
   "app": {
     "name": "photomarp",
+    "short_description": "Zarządzaj swoją bazą zdjęć, udostępniaj swoje prace bez pośredników i nawiązuj współprace z klientami oraz innymi fotografami.",
+    "long_description": "Zarządzaj swoją bazą zdjęć, udostępniaj swoje prace bez pośredników i nawiązuj współprace z klientami oraz innymi fotografami. Niezależnie od Twojego poziomu zaawansowania, znajdziesz tutaj narzędzia, które podniosą jakość Twojej pracy!",
     "author": "marp.io",
     "socialmedia": {
       "description": "Bądź na bieżąco, zaobserwuj nas:",
       "link": "/photomarp"
-    }
+    },
+    "copy": "© 2024 photomarp.com | Wszelkie Prawa Zastrzeżone"
   },
   "hero": {
+    "menuTitle": "Start",
     "subtitle": "Rozwiązanie stworzone z pasją do fotografii",
     "title": "Profesjonalne Narzędzie dla Fotografów",
-    "description": "Zarządzaj swoją bazą zdjęć, udostępniaj swoje prace bez pośredników i nawiązuj współprace z klientami oraz innymi fotografami.",
     "action": {
       "signUp": "Lista oczekujących",
       "about": "O projekcie"
@@ -155,5 +158,25 @@
   "contact": {
     "title": "Kontakt",
     "subtitle": "Skontakuj się z nami"
+  },
+  "footer": {
+    "menu": {
+      "partners": {
+        "title": "Partnerzy",
+        "elements": {
+          "partnersList": "Nasi partnerzy",
+          "becamePartner": "Zostań partnerem",
+          "affiliation": "Program afilacyjny"
+        }
+      },
+      "company": {
+        "title": "Firma",
+        "elements": {
+          "privacyPolicy": "Polityka prywatności",
+          "cookies": "Ustawienia cookies",
+          "rules": "Regulamin i zasady"
+        }
+      }
+    }
   }
 }

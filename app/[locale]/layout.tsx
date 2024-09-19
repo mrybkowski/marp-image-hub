@@ -3,6 +3,7 @@ import { Anek_Latin, Montserrat } from 'next/font/google';
 
 import './globals.css';
 
+import Footer from '@/components/ui/footer';
 import { cn } from '@/lib/utils';
 import { AOSInit, ThemeProvider, TranslationProvider } from '@/providers';
 

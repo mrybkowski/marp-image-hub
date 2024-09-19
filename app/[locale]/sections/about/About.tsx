@@ -37,7 +37,7 @@ export default function About() {
             </P>
           </div>
           <div className="flex md:flex-row flex-col items-center gap-10">
-            <div className="bg-primary/50 dark:bg-background flex flex-col md:flex-row rounded-[40px] p-10 border-y dark:border-primary border-primary-foreground w-full lg:w-7/12">
+            <div className="bg-primary/50 dark:bg-background flex flex-col md:flex-row rounded-[40px] p-10 border-y border-section w-full lg:w-7/12">
               <div className="flex flex-col gap-5">
                 <P>{t('about.content.0')}</P>
                 <P>{t('about.content.1')}</P>

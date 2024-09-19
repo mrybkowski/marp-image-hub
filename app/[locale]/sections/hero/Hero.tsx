@@ -21,7 +21,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="xl:h-full xl:py-0 py-[100px] relative overflow-hidden md:rounded-b-[100px] rounded-b-[40px] border-y border-foreground dark:border-none">
+      className="xl:h-full xl:py-0 py-[100px] relative overflow-hidden md:rounded-b-[100px] rounded-b-[40px] border-y border-section">
       <BackgroundLayer
         className="dark:top-[50%] top-[10%] -right-[50%] w-[100%] h-[100%]"
         gradient={'purple'}
@@ -39,7 +39,7 @@ export default function Hero() {
           </P>
           <H1>{t('hero.title')}</H1>
           <P className="lg:text-3xl text-2xl font-light">
-            {t('hero.description')}
+            {t('app.short_description')}
           </P>
           <div className="flex flex-col md:flex-row gap-5 pt-5">
             <Button onClick={() => scrollToNewsletterSection()}>

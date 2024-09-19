@@ -5,6 +5,7 @@ import { Hero } from './sections/hero';
 import { Newsletter } from './sections/newsletter';
 import { Tech } from './sections/tech';
 
+import Footer from '@/components/ui/footer';
 import { Toaster } from '@/components/ui/toaster';
 import { ToggleMode } from '@/components/ui/toggle-mode';
 
@@ -14,14 +15,15 @@ export default function Home() {
       <div className="absolute z-50 top-5 left-5">
         <ToggleMode />
       </div>
-      <main className="h-full">
+      <div className="h-full">
         <Hero />
         <Tech />
         <About />
         <Functions />
         <Newsletter />
         <Contact />
-      </main>
+        <Footer />
+      </div>
       <Toaster />
     </>
   );

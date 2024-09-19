@@ -26,13 +26,17 @@
   },
   "app": {
     "name": "photomarp",
+    "short_description": "Manage your photo database, share your work without intermediaries, and collaborate with clients and other photographers.",
+    "long_description": "Manage your photo database, share your work without intermediaries, and collaborate with clients and other photographers. Regardless of your skill level, you will find tools here that will improve the quality of your work!",
     "author": "marp.io",
     "socialmedia": {
       "description": "Stay up to date, follow us:",
       "link": "/photomarp"
-    }
+    },
+    "copy": "© 2024 photomarp.com | All Rights Reserved"
   },
   "hero": {
+    "menuTitle": "Start",
     "subtitle": "A solution created with a passion for photography",
     "title": "Professional Tool for Photographers",
     "description": "Manage your photo database, share your work without intermediaries, and collaborate with clients and other photographers.",
@@ -155,5 +159,25 @@
   "contact": {
     "title": "Contact",
     "subtitle": "Get in touch with us"
+  },
+  "footer": {
+    "menu": {
+      "partners": {
+        "title": "Partners",
+        "elements": {
+          "partnersList": "Our Partners",
+          "becamePartner": "Become a Partner",
+          "affiliation": "Affiliate Program"
+        }
+      },
+      "company": {
+        "title": "Company",
+        "elements": {
+          "privacyPolicy": "Privacy Policy",
+          "cookies": "Cookie Settings",
+          "rules": "Terms and Conditions"
+        }
+      }
+    }
   }
 }

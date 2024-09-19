@@ -51,6 +51,7 @@ body {
     --input: 0 0% 5%;
     --ring: 81 62.9% 62%;
     --radius: 0.5rem;
+    --section: 0 0% 82%;
   }
   .dark {
     --background: 0 0% 0%;
@@ -73,5 +74,6 @@ body {
     --input: 0 0% 82%;
     --ring: 81 62.9% 62%;
     --radius: 0.5rem;
+    --section: 0 0% 82%;
   }
 }

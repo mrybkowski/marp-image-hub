@@ -1,11 +1,13 @@
 interface BackgroundLayerProps {
   className: string;
   gradient: 'green' | 'purple';
+  isVisible?: boolean;
 }
 
 export default function BackgroundLayer({
   className,
-  gradient
+  gradient,
+  isVisible = true
 }: BackgroundLayerProps) {
   const gradientVariants = {
     green:
@@ -15,8 +17,10 @@ export default function BackgroundLayer({
   };
 
   return (
-    <div
-      className={`absolute rounded-full opacity-100 blur-3xl animate-move-pulse ${className}`}
-      style={{ background: gradientVariants[gradient] }}></div>
+    isVisible && (
+      <div
+        className={`absolute rounded-full opacity-100 blur-3xl animate-move-pulse ${className}`}
+        style={{ background: gradientVariants[gradient] }}></div>
+    )
   );
 }

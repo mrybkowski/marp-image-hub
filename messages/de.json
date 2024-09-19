@@ -26,13 +26,17 @@
   },
   "app": {
     "name": "photomarp",
+    "short_description": "Verwalte deine Fotodatenbank, teile deine Arbeiten ohne Zwischenhändler und arbeite mit Kunden und anderen Fotografen zusammen.",
+    "long_description": "Verwalte deine Fotodatenbank, teile deine Arbeiten ohne Zwischenhändler und arbeite mit Kunden und anderen Fotografen zusammen. Unabhängig von deinem Erfahrungsniveau findest du hier Werkzeuge, die die Qualität deiner Arbeit verbessern werden!",
     "author": "marp.io",
     "socialmedia": {
-      "description": "Bleiben Sie auf dem Laufenden, folgen Sie uns:",
+      "description": "Bleib auf dem Laufenden, folge uns:",
       "link": "/photomarp"
-    }
+    },
+    "copy": "© 2024 photomarp.com | Alle Rechte vorbehalten"
   },
   "hero": {
+    "menuTitle": "Start",
     "subtitle": "Eine Lösung, die aus der Leidenschaft für Fotografie entstanden ist",
     "title": "Professionelles Werkzeug für Fotografen",
     "description": "Verwalten Sie Ihre Fotodatenbank, teilen Sie Ihre Arbeiten ohne Zwischenhändler und arbeiten Sie mit Kunden und anderen Fotografen zusammen.",
@@ -155,5 +159,25 @@
   "contact": {
     "title": "Kontakt",
     "subtitle": "Kontaktieren Sie uns"
+  },
+  "footer": {
+    "menu": {
+      "partners": {
+        "title": "Partner",
+        "elements": {
+          "partnersList": "Unsere Partner",
+          "becamePartner": "Partner werden",
+          "affiliation": "Partnerprogramm"
+        }
+      },
+      "company": {
+        "title": "Firma",
+        "elements": {
+          "privacyPolicy": "Datenschutzerklärung",
+          "cookies": "Cookie-Einstellungen",
+          "rules": "Geschäftsbedingungen"
+        }
+      }
+    }
   }
 }

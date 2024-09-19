@@ -19,7 +19,7 @@ export default function Contact() {
         <Container className="flex flex-col gap-10">
           <div className="w-full flex flex-col gap-2 pb-5 md:pb-0">
             <div className="flex flex-row items-center gap-2">
-              <div className="p-3 bg-gradient-to-tr from-primary to-secondary rounded-full border border-input">
+              <div className="p-3 bg-gradient-to-tr from-primary to-secondary rounded-full border border-section">
                 <GlobeIcon color="black" className="h-5 w-5" />
               </div>
               <H2>{t('contact.title')}</H2>
@@ -29,7 +29,7 @@ export default function Contact() {
             </P>
           </div>
           <div className="flex lg:flex-row flex-col gap-10">
-            <div className="flex flex-col gap-2 p-10 border-y dark:border-slate-400 border-slate-900 rounded-[40px] bg-white dark:bg-destructive/50 w-full lg:w-7/12">
+            <div className="flex flex-col gap-2 p-10 border-y border-section rounded-[40px] bg-white dark:bg-destructive/50 w-full lg:w-7/12">
               <ContactForm />
             </div>
             <div className="w-full lg:w-5/12">

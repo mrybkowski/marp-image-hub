@@ -128,7 +128,7 @@ export default function Functions() {
                     key={index}
                     className="pl-1 md:basis-1/2 lg:basis-1/3">
                     <div className="p-5 h-full">
-                      <div className="flex flex-col gap-2 p-10 border-y dark:border-slate-400 border-slate-900 rounded-[40px] bg-white dark:bg-destructive/50 h-full">
+                      <div className="flex flex-col gap-2 p-10 border-y border-section rounded-[40px] bg-white dark:bg-destructive/50 h-full">
                         <H3 className="text-2xl font-semibold">
                           {t(element.title)}
                         </H3>

@@ -20,7 +20,7 @@ const ContactMap = () => {
     <MapContainer
       center={position}
       zoom={13}
-      className="border-y dark:border-slate-400 border-slate-900 rounded-[40px] bg-white dark:bg-destructive/50"
+      className="border-y border-section rounded-[40px] bg-white dark:bg-destructive/50"
       style={{ height: '100%', minHeight: '300px', width: '100%' }}>
       <TileLayer
         url={
