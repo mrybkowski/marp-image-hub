@@ -17,24 +17,25 @@ import { Container } from '@/components/ui/container';
 export default function Footer() {
   const t = useTranslations();
 
-  const { theme, resolvedTheme } = useTheme();
-
-  const isDarkMode = theme === 'dark' || resolvedTheme === 'dark';
+  const gradientVariants = {
+    green:
+      'radial-gradient(circle, rgba(177,219,97,1) 0%, rgba(177,219,97,0) 100%)',
+    purple:
+      'radial-gradient(circle, rgba(191,177,245,1) 0%, rgba(191,177,245,0) 100%)'
+  };
 
   return (
     <section
       id="footer"
       className="py-10 bg-foreground md:rounded-t-[100px] rounded-t-[40px] relative  overflow-hidden">
-      {/* <BackgroundLayer
-        className="dark:top-[50%] top-[10%] -right-[50%] w-[100%] h-[100%]"
-        gradient={'green'}
-        isVisible={isDarkMode}
+      <div
+        className={`dark:absolute d-none rounded-full opacity-100 blur-3xl animate-move-pulse dark:top-[0%] top-[10%] -right-[50%] w-[100%] h-[100%]`}
+        style={{ background: gradientVariants['green'] }}
       />
-      <BackgroundLayer
-        className="dark:top-[50%] top-[10%] -left-[50%] w-[100%] h-[100%]"
-        gradient={'purple'}
-        isVisible={isDarkMode}
-      /> */}
+      <div
+        className={`dark:absolute d-none rounded-full opacity-100 blur-3xl animate-move-pulse dark:top-[0%] top-[10%] -left-[50%] w-[100%] h-[100%]`}
+        style={{ background: gradientVariants['purple'] }}
+      />
       <Container className="flex flex-row flex-wrap relative">
         <div className="flex flex-col w-full lg:w-4/12 gap-5">
           <P className="flex flex-row gap-2 items-center lg:text-3xl text-2xl text-white">
