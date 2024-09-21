@@ -78,26 +78,21 @@ export default function Functions() {
   const t = useTranslations();
   const [activeData, setActiveData] = useState(individualCreator);
 
-  // Referencja do sekcji, aby przewinąć do niej po kliknięciu
   const sectionRef = useRef<HTMLDivElement>(null);
 
-  // Funkcja do zmiany URL i przewinięcia do sekcji
   const updateURLAndScroll = (hash: string) => {
     window.history.pushState(null, '', hash);
 
-    // Przewinięcie do sekcji
     if (sectionRef.current) {
       sectionRef.current.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
-  // Funkcja do zmiany grupy na podstawie hasha
   const handleButtonClick = (data: any, hash: string) => {
     setActiveData(data);
     updateURLAndScroll(hash);
   };
 
-  // Ustawienie grupy na podstawie hasha z URL
   useEffect(() => {
     const hash = window.location.hash;
 
@@ -110,7 +105,6 @@ export default function Functions() {
     }
   }, []);
 
-  // Listener na zmiany hasha URL, aby automatycznie przełączać grupę po zmianie hash
   useEffect(() => {
     const onHashChange = () => {
       const hash = window.location.hash;
@@ -122,7 +116,6 @@ export default function Functions() {
         setActiveData(individualCreator);
       }
 
-      // Scroll do sekcji po zmianie hash
       if (sectionRef.current) {
         sectionRef.current.scrollIntoView({ behavior: 'smooth' });
       }
