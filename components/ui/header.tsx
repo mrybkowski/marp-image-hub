@@ -48,7 +48,7 @@ const components: { title: string; href: string; description: string }[] = [
 
 export function Header() {
   const t = useTranslations();
-  const isMobile = useIsMobile(768); // Sprawdzenie, czy ekran jest mobilny (szerokość <= 768px)
+  const isMobile = useIsMobile(768);
 
   return (
     <section id="nav" className="fixed z-50 bg-foreground w-full">
@@ -59,7 +59,6 @@ export function Header() {
   );
 }
 
-// Komponent mobilnego menu z Drawer
 export function MobileMenu({ t }: { t: any }) {
   return (
     <Drawer>
@@ -76,23 +75,48 @@ export function MobileMenu({ t }: { t: any }) {
         <nav className="p-4">
           <ul className="space-y-4">
             <li>
-              <Link href="/docs" passHref>
+              <Link href="/#" passHref>
                 <DrawerClose asChild>
-                  <a className="text-base font-medium">Documentation</a>
+                  <a className="text-base font-medium">
+                    {' '}
+                    {t('navigation.home')}
+                  </a>
                 </DrawerClose>
               </Link>
             </li>
             <li>
-              <Link href="/docs/installation" passHref>
+              <Link href="/#projects" passHref>
                 <DrawerClose asChild>
-                  <a className="text-base font-medium">Installation</a>
+                  <a className="text-base font-medium">
+                    {t('navigation.project')}
+                  </a>
                 </DrawerClose>
               </Link>
             </li>
             <li>
-              <Link href="/docs/primitives/typography" passHref>
+              <Link href="/#functions" passHref>
                 <DrawerClose asChild>
-                  <a className="text-base font-medium">Typography</a>
+                  <a className="text-base font-medium">
+                    {t('navigation.functions.title')}
+                  </a>
+                </DrawerClose>
+              </Link>
+            </li>
+            <li>
+              <Link href="/#newsletter" passHref>
+                <DrawerClose asChild>
+                  <a className="text-base font-medium">
+                    {t('navigation.newsletter')}
+                  </a>
+                </DrawerClose>
+              </Link>
+            </li>
+            <li>
+              <Link href="/#contact" passHref>
+                <DrawerClose asChild>
+                  <a className="text-base font-medium">
+                    {t('navigation.contact')}
+                  </a>
                 </DrawerClose>
               </Link>
             </li>
@@ -103,7 +127,6 @@ export function MobileMenu({ t }: { t: any }) {
   );
 }
 
-// Komponent menu desktopowego
 function DesktopMenu({ t }: { t: any }) {
   return (
     <NavigationMenu>
