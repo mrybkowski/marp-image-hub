@@ -62,12 +62,14 @@ export function Header() {
 export function MobileMenu({ t }: { t: any }) {
   return (
     <Drawer>
-      <DrawerTrigger asChild>
-        <button className="p-2">
-          <Menu className="h-6 w-6" />
-        </button>
-      </DrawerTrigger>
-
+      <div className="flex flex-row justify-between">
+        <DrawerTrigger asChild>
+          <button className="p-2">
+            <Menu className="h-6 w-6 text-white" />
+          </button>
+        </DrawerTrigger>
+        <ToggleMode />
+      </div>
       <DrawerContent>
         <DrawerHeader>
           <DrawerTitle>{t('app.name')}</DrawerTitle>

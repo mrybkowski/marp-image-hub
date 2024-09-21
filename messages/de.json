@@ -11,7 +11,7 @@
       "name": "Vorname",
       "surname": "Nachname",
       "message": "Nachricht",
-      "acceptNewsletter": "Ich akzeptiere die Bedingungen der Datenschutzrichtlinie des Newsletters."
+      "acceptNewsletter": "Ich akzeptiere die Datenschutzrichtlinien des Newsletters."
     },
     "action": {
       "submit": "Senden"
@@ -24,22 +24,55 @@
       "tooLong": "Der Ausdruck ist zu lang, bitte kürzen"
     }
   },
+  "navigation": {
+    "title": "Start",
+    "home": "Startseite",
+    "project": "Projekt",
+    "functions": {
+      "title": "Funktionen",
+      "individualCreator": {
+        "title": "Individueller Schöpfer",
+        "description": "Ein leidenschaftlicher Schöpfer, der seine eigenen Projekte verwirklicht."
+      },
+      "professionalOrganizer": {
+        "title": "Professioneller Organisator",
+        "description": "Ein Experte für das Management von Veranstaltungen und Projekten."
+      },
+      "creativeOrganization": {
+        "title": "Kreative Organisation",
+        "description": "Zusammenarbeit schafft neue, originelle Projekte."
+      }
+    },
+    "newsletter": "Newsletter",
+    "contact": "Kontakt",
+    "partners": {
+      "title": "Partner",
+      "partnersList": "Unsere Partner",
+      "becamePartner": "Partner werden",
+      "affiliation": "Partnerprogramm"
+    },
+    "company": {
+      "title": "Unternehmen",
+      "privacyPolicy": "Datenschutzrichtlinie",
+      "cookies": "Cookie-Einstellungen",
+      "rules": "Regeln und Bedingungen"
+    }
+  },
   "app": {
     "name": "photomarp",
-    "short_description": "Verwalte deine Fotodatenbank, teile deine Arbeiten ohne Zwischenhändler und arbeite mit Kunden und anderen Fotografen zusammen.",
-    "long_description": "Verwalte deine Fotodatenbank, teile deine Arbeiten ohne Zwischenhändler und arbeite mit Kunden und anderen Fotografen zusammen. Unabhängig von deinem Erfahrungsniveau findest du hier Werkzeuge, die die Qualität deiner Arbeit verbessern werden!",
+    "short_description": "Verwalten Sie Ihre Fotosammlung, teilen Sie Ihre Arbeit direkt und arbeiten Sie mit Kunden und anderen Fotografen zusammen.",
+    "long_description": "Verwalten Sie Ihre Fotosammlung, teilen Sie Ihre Arbeit direkt und arbeiten Sie mit Kunden und anderen Fotografen zusammen. Unabhängig von Ihrem Erfahrungsniveau finden Sie hier Werkzeuge, die die Qualität Ihrer Arbeit verbessern!",
     "author": "marp.io",
     "socialmedia": {
-      "description": "Bleib auf dem Laufenden, folge uns:",
+      "description": "Bleiben Sie auf dem Laufenden, folgen Sie uns:",
       "link": "/photomarp"
     },
     "copy": "© 2024 photomarp.com | Alle Rechte vorbehalten"
   },
   "hero": {
     "menuTitle": "Start",
-    "subtitle": "Eine Lösung, die aus der Leidenschaft für Fotografie entstanden ist",
+    "subtitle": "Eine Lösung aus Leidenschaft für die Fotografie",
     "title": "Professionelles Werkzeug für Fotografen",
-    "description": "Verwalten Sie Ihre Fotodatenbank, teilen Sie Ihre Arbeiten ohne Zwischenhändler und arbeiten Sie mit Kunden und anderen Fotografen zusammen.",
     "action": {
       "signUp": "Warteliste",
       "about": "Über das Projekt"
@@ -53,12 +86,12 @@
       "visits": {
         "title": "Besuche",
         "quantity": "150k+",
-        "description": "Einzigartige Besucher"
+        "description": "Anzahl der eindeutigen Besuche"
       },
       "participation": {
         "title": "Engagement",
         "quantity": "15 min",
-        "description": "Durchschnittliche Sitzungsdauer auf der Website"
+        "description": "Durchschnittliche Sitzungszeit auf der Website"
       },
       "rate": {
         "quantity": "4.8",
@@ -76,10 +109,10 @@
   },
   "about": {
     "title": "Über uns",
-    "subtitle": "Ein paar Worte über das Projekt",
+    "subtitle": "Ein paar Worte zum Projekt",
     "content": {
-      "0": "Unser Unternehmen ist ein Team von Technologie-Enthusiasten, das sich leidenschaftlich der Entwicklung von Anwendungen widmet, die reale Probleme lösen. Wir spezialisieren uns auf die Bereitstellung moderner Lösungen, die nicht nur die Bedürfnisse der Nutzer erfüllen, sondern auch mit einer ästhetischen und intuitiven Benutzeroberfläche überzeugen.",
-      "1": "Unsere Anwendungen zeichnen sich durch ein durchdachtes und übersichtliches UI aus, das die Nutzung fortschrittlicher Funktionen unabhängig vom Erfahrungsstand des Nutzers erleichtert. Dank uns wird Technologie zugänglicher und alltägliche Herausforderungen lassen sich einfacher bewältigen."
+      "0": "Unser Unternehmen besteht aus einem Team von Technologie-Enthusiasten, die mit Engagement Anwendungen entwickeln, die reale Probleme lösen. Wir spezialisieren uns auf die Bereitstellung moderner Lösungen, die nicht nur die Bedürfnisse der Benutzer erfüllen, sondern auch durch ein ästhetisches und intuitives Interface überzeugen.",
+      "1": "Unsere Anwendungen zeichnen sich durch ein durchdachtes und übersichtliches UI aus, das die Nutzung fortschrittlicher Funktionen unabhängig vom Erfahrungsstand des Benutzers erleichtert. Dank uns wird Technologie zugänglicher, und alltägliche Herausforderungen werden leichter zu bewältigen."
     },
     "action": {
       "functions": "Funktionen, an denen wir gemeinsam arbeiten"
@@ -87,97 +120,77 @@
   },
   "functions": {
     "title": "Funktionen",
-    "subtitle": "An spezifische Zielgruppen angepasst",
+    "subtitle": "Zugeschnitten auf spezifische Zielgruppen",
     "chooseGroup": "Wählen Sie eine Zielgruppe",
     "groups": {
       "individualCreator": {
-        "title": "Individueller Kreator",
+        "title": "Individueller Schöpfer",
         "0": {
-          "title": "individual creator title 0",
-          "description": "individual creator description 0"
+          "title": "Individueller Schöpfer Titel 0",
+          "description": "Individueller Schöpfer Beschreibung 0"
         },
         "1": {
-          "title": "individual creator title 1",
-          "description": "individual creator description 1"
+          "title": "Individueller Schöpfer Titel 1",
+          "description": "Individueller Schöpfer Beschreibung 1"
         },
         "2": {
-          "title": "individual creator title 2",
-          "description": "individual creator description 2"
+          "title": "Individueller Schöpfer Titel 2",
+          "description": "Individueller Schöpfer Beschreibung 2"
         },
         "3": {
-          "title": "individual creator title 3",
-          "description": "individual creator description 3"
+          "title": "Individueller Schöpfer Titel 3",
+          "description": "Individueller Schöpfer Beschreibung 3"
         }
       },
       "professionalOrganizer": {
         "title": "Professioneller Organisator",
         "0": {
-          "title": "professional organizer title 0",
-          "description": "professional organizer description 0"
+          "title": "Professioneller Organisator Titel 0",
+          "description": "Professioneller Organisator Beschreibung 0"
         },
         "1": {
-          "title": "professional organizer title 1",
-          "description": "professional organizer description 1"
+          "title": "Professioneller Organisator Titel 1",
+          "description": "Professioneller Organisator Beschreibung 1"
         },
         "2": {
-          "title": "professional organizer title 2",
-          "description": "professional organizer description 2"
+          "title": "Professioneller Organisator Titel 2",
+          "description": "Professioneller Organisator Beschreibung 2"
         },
         "3": {
-          "title": "professional organizer title 3",
-          "description": "professional organizer description 3"
+          "title": "Professioneller Organisator Titel 3",
+          "description": "Professioneller Organisator Beschreibung 3"
         }
       },
       "creativeOrganization": {
         "title": "Kreative Organisation",
         "0": {
-          "title": "creative organization title 0",
-          "description": "creative organization description 0"
+          "title": "Kreative Organisation Titel 0",
+          "description": "Kreative Organisation Beschreibung 0"
         },
         "1": {
-          "title": "creative organization title 1",
-          "description": "creative organization description 1"
+          "title": "Kreative Organisation Titel 1",
+          "description": "Kreative Organisation Beschreibung 1"
         },
         "2": {
-          "title": "creative organization title 2",
-          "description": "creative organization description 2"
+          "title": "Kreative Organisation Titel 2",
+          "description": "Kreative Organisation Beschreibung 2"
         },
         "3": {
-          "title": "creative organization title 3",
-          "description": "creative organization description 3"
+          "title": "Kreative Organisation Titel 3",
+          "description": "Kreative Organisation Beschreibung 3"
         }
       }
     }
   },
   "newsletter": {
     "title": "Newsletter",
-    "subtitle": "Zur Warteliste anmelden",
+    "subtitle": "Treten Sie der Warteliste bei",
     "content": {
-      "0": "Unser Ziel ist es, Ihre Bedürfnisse und Erwartungen besser zu verstehen, um Funktionen zu entwickeln, die Ihre Arbeit wirklich unterstützen. Mit diesem Newsletter möchten wir erfahren, welche spezifischen Lösungen für Sie am wichtigsten sind und wie Sie diese nutzen möchten. Wir möchten auch Ihre Meinung zu neuen Funktionen erfahren und sehen, ob Fotografen bereit wären, sie zu nutzen. Dank Ihres Engagements können wir Werkzeuge entwickeln, die perfekt auf Ihre Bedürfnisse zugeschnitten sind."
+      "0": "Unser Ziel ist es, Ihre Bedürfnisse und Erwartungen besser zu verstehen, um Funktionen zu entwickeln, die Ihre Arbeit wirklich unterstützen. Mit diesem Newsletter möchten wir herausfinden, welche spezifischen Lösungen für Sie am wichtigsten sind und wie Sie sie nutzen möchten. Wir möchten auch Ihre Meinung zu neuen Funktionen hören und erfahren, ob Fotografen bereit sind, sie zu nutzen. Dank Ihres Engagements können wir Werkzeuge schaffen, die perfekt auf Ihre Bedürfnisse zugeschnitten sind."
     }
   },
   "contact": {
     "title": "Kontakt",
     "subtitle": "Kontaktieren Sie uns"
-  },
-  "footer": {
-    "menu": {
-      "partners": {
-        "title": "Partner",
-        "elements": {
-          "partnersList": "Unsere Partner",
-          "becamePartner": "Partner werden",
-          "affiliation": "Partnerprogramm"
-        }
-      },
-      "company": {
-        "title": "Firma",
-        "elements": {
-          "privacyPolicy": "Datenschutzerklärung",
-          "cookies": "Cookie-Einstellungen",
-          "rules": "Geschäftsbedingungen"
-        }
-      }
-    }
   }
 }
