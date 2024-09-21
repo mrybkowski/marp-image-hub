@@ -192,5 +192,88 @@
   "contact": {
     "title": "Contact",
     "subtitle": "Get in touch with us"
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "description": "The privacy policy describes the principles of processing information about you, including personal data and cookies, also known as 'cookies'.",
+    "section": {
+      "generalInformation": {
+        "title": "General Provisions",
+        "description": {
+          "0": "The administrator of personal data is Fill in, located at Fill in, with VAT number: Fill in. You can contact Fill in in writing at the address indicated in the previous sentence or by email at:",
+          "1": "The privacy policy is an integral part of the Terms and Conditions. By using the services we offer, you entrust us with your information. This document serves to help you understand what information and data are collected and for what purpose they are used. This data is very important to us, so please read this document carefully as it sets out the rules and methods for processing and protecting personal data. This document also outlines the rules for the use of 'Cookies'.",
+          "2": "We inform you that we comply with personal data protection rules and all legal regulations provided for in the Personal Data Protection Act and the Regulation of the European Parliament and Council (EU) 2016/679 of April 27, 2016, on the protection of individuals with regard to the processing of personal data and the free movement of such data, and repealing Directive 95/46/EC.",
+          "3": "At the request of the person whose personal data is processed, we provide exhaustive information on how we use their personal data. We always strive to inform clearly about the data we collect, how we use it, what purposes it serves, to whom we transfer it, what protection we provide when transferring it to other entities, and provide information about institutions to contact in case of doubts."
+        }
+      },
+      "privacyPolicy": {
+        "title": "Privacy Policy",
+        "description": {
+          "0": "We respect your privacy. We want to guarantee your convenience in using our services.",
+          "1": "We value the trust you place in us by entrusting us with your personal data for the purpose of providing services. We always use personal data fairly and in a way that does not betray your trust, only to the extent necessary to provide services.",
+          "2": "As a User, you have the right to receive full and clear information on how we use your personal data and for what purposes it is necessary. We always inform clearly about the data we collect, how and to whom we share it, and provide information on the entities to contact in case of doubts.",
+          "3": "If there are any doubts regarding the use of your personal data, we will promptly take action to clarify and resolve such doubts. We provide comprehensive answers to all related questions.",
+          "4": "We will take all reasonable measures to protect your data from improper and uncontrolled use.",
+          "5": "The legal basis for processing your personal data is:",
+          "5-1": "Art. 6 sec. 1(a) - the data subject has consented to the processing of their personal data for one or more specified purposes.",
+          "5-2": "Art. 6 sec. 1(b) - processing is necessary for the performance of a contract to which the data subject is a party, or to take steps at the request of the data subject before entering into a contract.",
+          "5-3": "Art. 6 sec. 1(c) - processing is necessary to comply with a legal obligation to which the controller is subject.",
+          "5-4": "Art. 6 sec. 1(d) - processing is necessary to protect the vital interests of the data subject or another natural person.",
+          "5-5": "Art. 6 sec. 1(e) - processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller.",
+          "5-6": "Art. 6 sec. 1(f) - processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party.",
+          "6": "Your personal data related to the conclusion and performance of the contract will be processed for the duration of its performance, and also for a period no longer than provided for by law, including the provisions of the Civil Code and the Accounting Act, i.e., no longer than 10 years from the end of the calendar year in which the last contract was performed.",
+          "7": "Your personal data processed for the purpose of concluding and performing future contracts will be processed until you object.",
+          "8": "You have the right to: access your personal data and receive a copy of the personal data being processed; rectify your incorrect data; request the deletion of data (right to be forgotten) in the circumstances provided for in Art. 17 of the GDPR; request restriction of data processing in the cases indicated in Art. 18 of the GDPR; object to data processing in the cases indicated in Art. 21 of the GDPR; transfer the provided data, processed automatically.",
+          "9": "If you believe that your personal data is being processed unlawfully, you can file a complaint with the supervisory authority (Personal Data Protection Office, ul. Stawki 2, Warsaw). If you need additional information related to data protection or wish to exercise your rights, contact us by post at the correspondence address.",
+          "10": "We comply with all applicable data protection regulations and will cooperate with authorities responsible for data protection and authorized law enforcement authorities. In the absence of data protection regulations, we will act in accordance with generally accepted data protection principles, social norms, and established customs.",
+          "11": "If you have any questions, feel free to contact us via the site from which you were redirected to this Privacy Policy. The request for contact will be promptly forwarded to the appropriate person.",
+          "12": "To facilitate our response or to address the information provided, please provide your name and surname."
+        }
+      },
+      "scopesAndPurpose": {
+        "title": "Scope and Purpose of Collecting Personal Data",
+        "description": {
+          "0": "We process the necessary personal data to provide services and for accounting purposes only.",
+          "1": "We collect, process, and store the following user data:",
+          "1-1": "name and surname",
+          "1-2": "address of residence",
+          "1-3": "mailing address (if different from residence address)",
+          "1-4": "tax identification number (VAT)",
+          "1-5": "email address",
+          "1-6": "phone number (mobile, landline)",
+          "1-7": "information about the internet browser used",
+          "1-8": "other personal data voluntarily provided to us",
+          "2": "Providing the above data is entirely voluntary but also necessary for the full provision of services.",
+          "3": "We may transfer personal data to servers located outside your country of residence or to affiliated entities, third parties located in other countries, including countries within the EEA (European Economic Area), for processing personal data on our behalf in accordance with this Privacy Policy and applicable laws, customs, and data protection regulations.",
+          "4": "Access to your data may be granted to entities providing essential services for the operation of the website, such as:",
+          "4-1": "Hosting companies providing hosting or related services to the Administrator",
+          "4-2": "Companies providing Newsletter services",
+          "4-3": "Service and IT support companies responsible for the maintenance or upkeep of IT infrastructure",
+          "4-4": "Companies mediating online payments for goods or services offered on the Website (in case of purchase transactions)",
+          "4-5": "Companies mediating mobile payments for goods or services offered on the Website (in case of purchase transactions)",
+          "4-6": "Companies responsible for handling the Administrator's accounting (in case of purchase transactions)",
+          "4-7": "Companies responsible for delivering physical products to the User (postal/courier services in case of purchase transactions)"
+        }
+      },
+      "cookies": {
+        "title": "Cookies",
+        "description": {
+          "0": "We use cookies or similar technologies (hereinafter collectively referred to as 'cookies') understood as data, in particular text files, intended for using the website and stored on the end devices of Users browsing the website. The information collected via cookies allows us to customize services and content to individual user needs and preferences, as well as to develop general statistics on how users use the website. Data collected using cookies is gathered solely for the purpose of performing specific functions for Users and is encrypted in a way that prevents unauthorized access.",
+          "1": "We use the following types of cookies on our website:",
+          "1-1": "Internal cookies - files placed and read from the User's Device by the Website's IT system",
+          "1-2": "External cookies - files placed and read from the User's Device by external services' IT systems. External services' scripts that may place cookies on the User's Device are intentionally placed on the Website by scripts and services provided and installed on the Website.",
+          "1-3": "Session cookies - files placed and read from the User's Device by the Website during a single session of the given Device. After the session ends, the files are deleted from the User's Device.",
+          "1-4": "Persistent cookies - files placed and read from the User's Device by the Website until manually deleted. The files are not deleted automatically after the session ends unless the User's Device configuration is set to delete cookies after the session ends.",
+          "2": "The following types of cookies are used on the Website:",
+          "2-1": "Security cookies: These are used to detect abuse in the field of authentication.",
+          "2-2": "Performance cookies: These collect information about how you use the Website and help improve the Website's performance.",
+          "2-3": "Functionality cookies: These are used to remember the settings you have selected and to personalize the interface, e.g., in the field of language selection or region from which the User comes.",
+          "2-4": "Advertising cookies: These provide Users with content more suited to their preferences.",
+          "3": "The user may individually configure their web browser and decide which cookies they allow for use. If they do not agree to the use of cookies, they should change their browser settings accordingly.",
+          "4": "By default, most web browsers on the market accept cookies. You can change these settings, specifying that cookies are to be blocked in whole or in part.",
+          "5": "You may delete previously saved cookies at any time using your browser settings."
+        }
+      }
+    }
   }
 }

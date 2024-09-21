@@ -41,7 +41,7 @@ const components: { title: string; href: string; description: string }[] = [
   },
   {
     title: 'navigation.functions.creativeOrganization.title',
-    href: '#creativeOrganization',
+    href: '/#creativeOrganization',
     description: 'navigation.functions.creativeOrganization.description'
   }
 ];

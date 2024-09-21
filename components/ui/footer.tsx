@@ -99,11 +99,11 @@ export default function Footer() {
                     {t('navigation.company.privacyPolicy')}
                   </P>
                 </Link>
-                <Link href="/cookies" passHref>
+                {/* <Link href="/cookies" passHref>
                   <P className="text-white">
                     {t('navigation.company.cookies')}
                   </P>
-                </Link>
+                </Link> */}
                 <Link href="/rules" passHref>
                   <P className="text-white">{t('navigation.company.rules')}</P>
                 </Link>

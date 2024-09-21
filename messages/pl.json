@@ -192,5 +192,118 @@
   "contact": {
     "title": "Kontakt",
     "subtitle": "Skontakuj się z nami"
+  },
+  "privacyPolicy": {
+    "title": "Polityka prywatności",
+    "description": "Polityka prywatności opisuje zasady przetwarzania przez nas informacji na Twój temat, w tym danych osobowych oraz ciasteczek, czyli tzw. cookies.",
+    "section": {
+      "generalInformation": {
+        "title": "Postanowienia ogólne",
+        "description": {
+          "0": "Administratorem danych osobowych jest firma Uzupełnij, z siedzibą przy Uzupełnij, o numerze NIP: Uzupełnij. Z Uzupełnij można kontaktować się pisemnie na adres wskazany w zdaniu poprzedzającym lub drogą e-mailową na adres:",
+          "1": "Polityka prywatności stanowi integralną część Regulaminu. Korzystając z oferowanych przez nas usług, powierzasz nam swoje informacje. Niniejszy dokument służy jedynie jako pomoc w zrozumieniu, jakie informacje i dane są zbierane i w jakim celu oraz do czego są wykorzystywane. Te dane są bardzo dla nas ważne, dlatego prosimy o dokładne zapoznanie się z tym dokumentem gdyż określa on zasady oraz sposoby przetwarzania i ochrony danych osobowych. Dokument ten określa także zasady stosowania plików „Cookies”.",
+          "2": "Informujemy, że przestrzegamy zasad ochrony danych osobowych oraz wszelkich uregulowań prawnych, które są przewidziane Ustawą o ochronie danych osobowych oraz Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE.",
+          "3": "Na żądanie osoby, której dane osobowe są przetwarzane udzielamy wyczerpujących informacji w jaki sposób wykorzystujemy jego dane osobowe. Zawsze w jasny sposób staramy się poinformować o danych, które gromadzimy, w jaki sposób je wykorzystujemy, jakim celom mają służyć i komu je przekazujemy, jaką zapewniamy ochronę tych danych przy przekazaniu innym podmiotom oraz udzielamy informacji o instytucjach, z którymi należy się skontaktować w razie wątpliwości."
+        }
+      },
+      "privacyPolicy": {
+        "title": "Polityka prywatności",
+        "description": {
+          "0": "Szanujemy Twoją prywatność. Pragniemy zagwarantować Ci wygodę korzystania z naszych usług.",
+          "1": "Cenimy zaufanie, jakim Nas obdarzasz, powierzając nam swoje dane osobowe w celu realizacji usług. Zawsze korzystamy z danych osobowych w sposób uczciwy oraz tak, aby nie zawieść Twojego zaufania, tylko w zakresie niezbędnym do realizacji usług.",
+          "2": "Jako Użytkownik masz prawo do uzyskania pełnych i jasnych informacji o tym, w jaki sposób wykorzystujemy Twoje dane osobowe i do jakich celów są niezbędne. Zawsze w klarowny sposób informujemy o danych, które zbieramy, w jaki sposób i komu je udostępniamy oraz udzielamy informacji o podmiotach, z którymi należy się skontaktować w razie wątpliwości.",
+          "3": "W razie wątpliwości odnośnie wykorzystywania przez nas Twoich danych osobowych, niezwłocznie podejmiemy działania w celu wyjaśnienia i rozwiania takich wątpliwości. W sposób wyczerpujący odpowiadamy na wszystkie pytania z tym związane.",
+          "4": "Podejmiemy wszystkie uzasadnione działania, aby chronić Twoje dane przed nienależytym i niekontrolowanym wykorzystaniem",
+          "5": "Podstawą prawną przetwarzania Twoich danych osobowych jest:",
+          "5-1": "art. 6 ust. 1 lit. a - osoba, której dane dotyczą wyraziła zgodę na przetwarzanie swoich danych osobowych w jednym lub większej liczbieokreślonych celów",
+          "5-2": "art. 6 ust. 1 lit. b - przetwarzanie jest niezbędne do wykonania umowy, której stroną jest osoba, której dane dotyczą, lub do podjęcia działań na żądanie osoby, której dane dotyczą, przed zawarciem umowy",
+          "5-3": "art. 6 ust. 1 lit. c - przetwarzanie jest niezbędne do wypełnienia obowiązku prawnego ciążącego na administratorze",
+          "5-4": "art. 6 ust. 1 lit. d - przetwarzanie jest niezbędne do ochrony żywotnych interesów osoby, której dane dotyczą, lub innej osoby fizycznej",
+          "5-5": "art. 6 ust. 1 lit. e - przetwarzanie jest niezbędne do wykonania zadania realizowanego w interesie publicznym lub w ramach sprawowania władzy publicznej powierzonej administratorowi",
+          "5-6": "art. 6 ust. 1 lit. f - przetwarzanie jest niezbędne do celów wynikających z prawnie uzasadnionych interesów realizowanych przez administratora lub przez stronę trzecią",
+          "6": "Twoje dane osobowe związane z zawarciem i realizacją umowy przetwarzane będą przez okres jej realizacji, a także przez okres nie dłuższy niż przewidują to przepisy prawa, w tym przepisy Kodeksu cywilnego oraz ustawy o rachunkowości, tj. nie dłużej niż przez 10 lat, licząc od końca roku kalendarzowego w którym ostatnia umowa została wykonana.",
+          "7": "Twoje dane osobowe przetwarzane w celu zawarcia i wykonania przyszłych umów będą przetwarzane do czasu zgłoszenia sprzeciwu.",
+          "8": "Przysługuje Ci prawo do: dostępu do swoich danych osobowych i otrzymania kopii danych osobowych podlegających przetwarzaniu, sprostowania swoich nieprawidłowych danych; żądania usunięcia danych (prawo do bycia zapomnianym) w przypadku wystąpienia okoliczności przewidzianych w art. 17 RODO; żądania ograniczenia przetwarzania danych w przypadkach wskazanych w art. 18 RODO, wniesienia sprzeciwu wobec przetwarzania danych w przypadkach wskazanych w art. 21 RODO, przenoszenia dostarczonych danych, przetwarzanych w sposób zautomatyzowany.",
+          "9": "Jeżeli uważasz, że Twoje dane osobowe są przetwarzane niezgodnie z prawem, możecie wnieść skargę do organu nadzorczego (Urząd Ochrony Danych Osobowych, ul. Stawki 2, Warszawa). Jeśli potrzebujesz dodatkowych informacji związanych z ochroną danych osobowych lub chcesz skorzystać z przysługujących praw, skontaktuj się z nami listownie na adres korespondencyjny.",
+          "10": "Przestrzegamy wszystkich obowiązujących przepisów i regulacji dotyczących ochrony danych i będziemy współpracować z organami zajmującymi się ochroną danych oraz uprawnionymi do tego organami ścigania. W przypadku braku przepisów dotyczących ochrony danych, będziemy postępować zgodnie z ogólnie przyjętymi zasadami ochrony danych, zasadami współżycia społecznego jak i ustalonymi zwyczajami.",
+          "11": "W razie pytań, zapraszamy do kontaktu za pomocą strony, z której zostałeś przekierowany do niniejszej Polityki prywatności. Prośba o kontakt zostanie niezwłocznie przekazana do odpowiedniej powołanej do tego osoby.",
+          "12": "Aby ułatwić nam odpowiedź bądź ustosunkowanie się do podanych informacji, prosimy o podanie imienia i nazwiska."
+        }
+      },
+      "scopesAndPurpose": {
+        "title": "Zakres i cel zbierania danych osobowych",
+        "description": {
+          "0": "Przetwarzamy niezbędne dane osobowe w celu realizacji usług oraz w celach księgowych i tylko takich.",
+          "1": "Zbieramy, przetwarzamy i przechowujemy następujące dane użytkowników:",
+          "1-1": "imię i nazwisko",
+          "1-2": "adres zamieszkania",
+          "1-3": "adres do doręczeń (jeśli jest inny niż adres zamieszkania",
+          "1-4": "numer identyfikacji podatkowej (NIP)",
+          "1-5": "adres poczty elektronicznej (e-mail)",
+          "1-6": "numer telefonu (komórkowy, stacjonarny)",
+          "1-7": "informacje o użytkowanej przeglądarce internetowej",
+          "1-8": "inne dobrowolnie przekazane nam dane osobowe",
+          "2": "Podanie powyższych danych przez jest całkowicie dobrowolne ale także i niezbędne do pełnej realizacji usług.",
+          "3": "Możemy przesyłać dane osobowe do serwerów znajdujących się poza krajem Twojego zamieszkania lub do podmiotów powiązanych, stron trzecich z siedzibą w innych krajach w tym krajach z obszaru EOG (Europejski Obszar Gospodarczy, EOG ang. European Economic Area, EEA – strefa wolnego handlu i Wspólny Rynek, obejmujące państwa Unii Europejskiej i Europejskiego Stowarzyszenia Wolnego Handlu EFTA) w celu przetwarzania danych osobowych przez takie podmioty w naszym imieniu zgodnie z postanowieniami niniejszej Polityki prywatności oraz obowiązującymi przepisami prawa, zwyczajami jak i regulacjami dotyczącymi ochrony danych.",
+          "4": "Dostęp do Twoich danych mogą posiadać podmioty świadczące dla usługi niezbędne do prowadzenia serwisu tj.:",
+          "4-1": "Firmy hostingowe, świadczące usługi hostingu lub usług pokrewnych dla Administratora",
+          "4-2": "Firmy, za pośrednictwem których świadczona jest usługa Newslettera",
+          "4-3": "Firmy serwisowe i wsparcia IT dokonujące konserwacji lub odpowiedzialne za utrzymanie infrastruktury IT",
+          "4-4": "Firmy pośredniczące w płatnościach on-line za towaru lub usługi oferowane w ramach Serwisu (w przypadku dokonywania transakcji zakupu w Serwisie)",
+          "4-5": "Firmy pośredniczące w płatnościach mobilnych za towaru lub usługi oferowane w ramach Serwisu (w przypadku dokonywania transakcji zakupu w Serwisie)",
+          "4-6": "Firmy odpowiedzialne za prowadzenie księgowości Administratora (w przypadku dokonywania transakcji zakupu w Serwisie)",
+          "4-7": "Firmy odpowiedzialne za dostarczanie produktów fizycznych do Użytkownika (usługi pocztowe / kurierskie w przypadku dokonywania transakcji zakupu w Serwisie)"
+        }
+      },
+      "cookies": {
+        "title": "Pliki Cookie",
+        "description": {
+          "0": "Stosuje pliki cookie lub podobne technologie (zwane dalej łącznie: „plikami cookie”) poprzez które należy rozumieć dane informatyczne, w szczególności pliki tekstowe, przeznaczone do korzystania ze strony internetowej i przechowywane w urządzeniach końcowych Użytkowników przeglądających strony. Informacje zbierane przy pomocy plików cookie pozwalają dostosowywać usługi i treści do indywidualnych potrzeb, a także preferencji użytkowników, jak również służą do opracowywania ogólnych statystyk dotyczących korzystania przez użytkowników ze stron. Dane gromadzone przy użyciu plików cookie są zbierane wyłącznie w celu wykonywania określonych funkcji na rzecz Użytkowników i są zaszyfrowane w sposób uniemożliwiający dostęp do nich osobom nieuprawnionym.",
+          "1": "Na naszej stronie stosujemy pliki cookie:",
+          "1-1": "Cookies wewnętrzne - pliki zamieszczane i odczytywane z Urządzenia Użytkownika przez system teleinformatyczny Serwisu",
+          "1-2": "Cookies zewnętrzne - pliki zamieszczane i odczytywane z Urządzenia Użytkownika przez systemy teleinformatyczne Serwisów zewnętrznych. Skrypty Serwisów zewnętrznych, które mogą umieszczać pliki Cookies na Urządzeniach Użytkownika zostały świadomie umieszczone w Serwisie poprzez skrypty i usługi udostępnione i zainstalowane w Serwisie",
+          "1-3": "Cookies sesyjne - pliki zamieszczane i odczytywane z Urządzenia Użytkownika przez Serwis podczas jednej sesji danego Urządzenia. Po zakończeniu sesji pliki są usuwane z Urządzenia Użytkownika.",
+          "1-4": "Cookies trwałe - pliki zamieszczane i odczytywane z Urządzenia Użytkownika przez Serwis do momentu ich ręcznego usunięcia. Pliki nie są usuwane automatycznie po zakończeniu sesji Urządzenia chyba że konfiguracja Urządzenia Użytkownika jest ustawiona na tryb usuwanie plików Cookie po zakończeniu sesji Urządzenia.",
+          "2": "W ramach naszej strony internetowej, stosowane są następujące rodzaje plików cookie ze względu na niezbędność do realizacji usług:",
+          "2-1": "niezbędne pliki cookie, umożliwiające korzystanie z usług dostępnych w ramach strony internetowej, w szczególności uwierzytelniające pliki cookie wykorzystywane do usług wymagających uwierzytelnienia;",
+          "2-2": "pliki cookie służące do zapewnienia bezpieczeństwa, w szczególności wykorzystywane do wykrywania nadużyć w zakresie uwierzytelniania;",
+          "2-3": "wydajnościowe pliki cookie, umożliwiające zbieranie informacji o sposobie korzystania ze stron internetowych;",
+          "2-4": "funkcjonalne pliki cookie, umożliwiające „zapamiętanie” wybranych przez użytkownika ustawień i personalizację interfejsu użytkownika;",
+          "2-5": "reklamowe pliki cookie, umożliwiające dostarczanie użytkownikom treści reklamowych dostosowanych do ich zainteresowań.",
+          "3": "Oprogramowanie do przeglądania stron internetowych (przeglądarka internetowa) zazwyczaj domyślnie dopuszcza przechowywanie plików cookie w urządzeniu końcowym. Użytkownik przeglądający stronę internetową może samodzielnie i w każdym czasie zmienić ustawienia dotyczące plików cookie, określając warunki ich przechowywania i uzyskiwania dostępu przez pliki cookie do swojego urządzenia. Zmiany ustawień, o których mowa w zdaniu poprzednim, Klient może dokonać za pomocą ustawień przeglądarki internetowej. Ustawienia te mogą zostać zmienione w szczególności w taki sposób, aby blokować automatyczną obsługę plików cookie w ustawieniach przeglądarki internetowej bądź informować o ich każdorazowym zamieszczeniu plików cookie na urządzeniu Użytkownika. Szczegółowe informacje o możliwości i sposobach obsługi plików cookie dostępne są w ustawieniach oprogramowania (przeglądarki internetowej).",
+          "4": "Korzystanie ze strony internetowej, bez zmiany ustawień w zakresie plików cookie, oznacza wyrażenie zgody na zapisywanie plików cookie. Klienta zawsze może wycofać zgodę poprzez zmianę ustawień dotyczących plików cookie.Informacje w jaki sposób dokonać konfiguracji ustawień plików cookie w przykładowych przeglądarkach internetowych Użytkownik może znaleźć tutaj:",
+          "4-1": "Chrome",
+          "4-2": "Opera",
+          "4-3": "Firefox",
+          "4-4": "Edge",
+          "4-5": "Safari",
+          "4-6": "Internet Explorer 11"
+        }
+      },
+      "socialMedia": {
+        "title": "Wtyczki Social Media",
+        "description": {
+          "0": "Wtyczki tak zwane plug-ins portali społecznościowych, mogą znajdować się na naszej stronie.",
+          "0-1": "Facebook obsługiwany jest przez Facebook Inc., 1601 S. California Ave, Palo Alto, CA 94304, USA Facebook. Aby zobaczyć wtyczki Facebook przejdź do: https://developers.facebook.com/docs/plugins",
+          "0-2": "Twitter obsługiwany jest Twitter Inc., 1355 Market Street, Suite 900, San Francisco, CA 94103, USA. Aby zobaczyć wtyczki Twittera przejdź do: https://dev.twitter.com/web/tweet-button",
+          "1": "Wtyczka przekazuje jej dostawcy jedynie informację o tym, do których z naszych stron internetowych miałeś dostęp i w jakim czasie. Jeśli podczas oglądania naszej strony bądź przebywania na niej, użytkownik jest zalogowany do swojego konta znajdującego się np. na Facebooku lub Twitterze, dostawca jest w stanie łączyć Twoje zainteresowania, preferencję informacyjne, oraz inne dane, pozyskane np. poprzez kliknięcie przycisku Lubię to czy pozostawienie komentarza, bądź wpisanie nazwy profilu w wyszukiwanych. Taka informacja również zostanie przekazana przez przeglądarkę bezpośrednio do dostawcy.",
+          "2": "Aby uniknąć odnotowania wizyty na wybranym koncie użytkownika przez Plug-in na naszej stronie internetowej musisz wylogować się ze swojego konta przed rozpoczęciem przeglądania naszej strony internetowej."
+        }
+      },
+      "rightsAndObligations": {
+        "title": "Prawa i obowiązaki",
+        "description": {
+          "0": "Mamy prawo a w przypadkach prawem określonych także i ustawowy obowiązek do przekazania wybranych bądź wszystkich informacji dotyczących danych osobowych organom władzy publicznej bądź osobom trzecim, które zgłoszą takie żądanie udzielenia informacji na podstawie obowiązujących przepisów prawa polskiego.",
+          "1": "Użytkownik ma prawo do:",
+          "1-1": "dostępu do danych osobowych - Użytkownikowi przysługuje prawo uzyskania dostępu do swoich danych osobowych, realizowane na żądanie złożone do Administratora",
+          "1-2": "sprostowania danych osobowych - Użytkownikowi przysługuje prawo żądania od Administratora niezwłocznego sprostowania danych osobowych, które są nieprawidłowe lub / oraz uzupełnienia niekompletnych danych osobowych, realizowane na żądanie złożone do Administratora",
+          "1-3": "usunięcia danych osobowych - Użytkownikowi przysługuje prawo żądania od Administratora niezwłocznego usunięcia danych osobowych, realizowane na żądanie złożone do Administratora W przypadku kont użytkowników, usunięcie danych polega na anonimizacji danych umożliwiających identyfikację Użytkownika. Administrator zastrzega sobie prawo wstrzymania realizacji żądania usunięcia danych w celu ochrony prawnie uzasadnionego interesu Administratora (np. w gdy Użytkownik dopuścił się naruszenia Regulaminu czy dane zostały pozyskane wskutek prowadzonej korespondencji). W przypadku usługi Newsletter, Użytkownik ma możliwość samodzielnego usunięcia swoich danych osobowych korzystając z odnośnika umieszczonego w każdej przesyłanej wiadomości e-mail.",
+          "1-4": "ograniczenia przetwarzania danych osobowych - Użytkownikowi przysługuje prawo ograniczenia przetwarzania danych osobowych w przypadkach wskazanych w art. 18 RODO, m.in. kwestionowania prawidłowość danych osobowych, realizowane na żądanie złożone do Administratora",
+          "1-5": "przenoszenia danych osobowych - Użytkownikowi przysługuje prawo uzyskania od Administratora, danych osobowych dotyczących Użytkownika w ustrukturyzowanym, powszechnie używanym formacie nadającym się do odczytu maszynowego, realizowane na żądanie złożone do Administratora",
+          "1-6": "wniesienia sprzeciwu wobec przetwarzania danych osobowych - Użytkownikowi przysługuje prawo wniesienia sprzeciwu wobec przetwarzania jego danych osobowych w przypadkach określonych w art. 21 RODO, realizowane na żądanie złożone do Administratora",
+          "1-7": "wniesienia skargi - Użytkownikowi przysługuje prawo wniesienia skargi do organu nadzorczego zajmującego się ochroną danych osobowych."
+        }
+      }
+    }
   }
 }
