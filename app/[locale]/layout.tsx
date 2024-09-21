@@ -4,6 +4,7 @@ import { Anek_Latin, Montserrat } from 'next/font/google';
 import './globals.css';
 
 import Footer from '@/components/ui/footer';
+import { Header } from '@/components/ui/header';
 import { cn } from '@/lib/utils';
 import { AOSInit, ThemeProvider, TranslationProvider } from '@/providers';
 
@@ -43,7 +44,11 @@ export default async function RootLayout({
         )}>
         <AOSInit />
         <ThemeProvider>
-          <TranslationProvider>{children}</TranslationProvider>
+          <TranslationProvider>
+            <Header />
+            {children}
+            <Footer />
+          </TranslationProvider>
         </ThemeProvider>
       </body>
     </html>

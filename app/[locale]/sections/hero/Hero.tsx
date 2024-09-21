@@ -15,13 +15,13 @@ import { useScrollToSection } from '@/hooks';
 export default function Hero() {
   const t = useTranslations();
 
-  const scrollToAboutSection = useScrollToSection('about');
+  const scrollToProjectSection = useScrollToSection('project');
   const scrollToNewsletterSection = useScrollToSection('newsletter');
 
   return (
     <section
       id="hero"
-      className="xl:h-full xl:py-0 py-[100px] relative overflow-hidden md:rounded-b-[100px] rounded-b-[40px] border-y border-section">
+      className="lg:h-svh xl:py-0 py-[100px] relative overflow-hidden md:rounded-b-[100px] rounded-b-[40px] border-b border-section">
       <BackgroundLayer
         className="dark:top-[50%] top-[10%] -right-[50%] w-[100%] h-[100%]"
         gradient={'purple'}
@@ -45,7 +45,7 @@ export default function Hero() {
             <Button onClick={() => scrollToNewsletterSection()}>
               {t('hero.action.signUp')}
             </Button>
-            <Button onClick={() => scrollToAboutSection()} variant="outline">
+            <Button onClick={() => scrollToProjectSection()} variant="outline">
               {t('hero.action.about')}
             </Button>
           </div>

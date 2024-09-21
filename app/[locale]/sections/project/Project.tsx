@@ -14,15 +14,13 @@ import { H2 } from '@/components/ui/typography-h2';
 import { P } from '@/components/ui/typography-p';
 import { useScrollToSection } from '@/hooks';
 
-export default function About() {
+export default function Project() {
   const t = useTranslations();
 
   const scrollToFunctionsSection = useScrollToSection('functions');
 
   return (
-    <section
-      id="about"
-      className="py-10 bg-primary/20 dark:bg-foreground md:rounded-[100px] rounded-[40px]">
+    <section id="project" className="py-10 bg-primary/20 dark:bg-foreground">
       <div data-aos="fade-up">
         <Container className="flex gap-10">
           <div className="md:w-1/2 w-full flex flex-col gap-2 pb-5 md:pb-0">

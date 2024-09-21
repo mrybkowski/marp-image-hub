@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { LayoutDashboardIcon } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
@@ -76,11 +76,67 @@ const creativeOrganization = [
 
 export default function Functions() {
   const t = useTranslations();
-
   const [activeData, setActiveData] = useState(individualCreator);
 
+  // Referencja do sekcji, aby przewinąć do niej po kliknięciu
+  const sectionRef = useRef<HTMLDivElement>(null);
+
+  // Funkcja do zmiany URL i przewinięcia do sekcji
+  const updateURLAndScroll = (hash: string) => {
+    window.history.pushState(null, '', hash);
+
+    // Przewinięcie do sekcji
+    if (sectionRef.current) {
+      sectionRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  // Funkcja do zmiany grupy na podstawie hasha
+  const handleButtonClick = (data: any, hash: string) => {
+    setActiveData(data);
+    updateURLAndScroll(hash);
+  };
+
+  // Ustawienie grupy na podstawie hasha z URL
+  useEffect(() => {
+    const hash = window.location.hash;
+
+    if (hash === '#professionalOrganizer') {
+      setActiveData(professionalOrganizer);
+    } else if (hash === '#creativeOrganization') {
+      setActiveData(creativeOrganization);
+    } else {
+      setActiveData(individualCreator);
+    }
+  }, []);
+
+  // Listener na zmiany hasha URL, aby automatycznie przełączać grupę po zmianie hash
+  useEffect(() => {
+    const onHashChange = () => {
+      const hash = window.location.hash;
+      if (hash === '#professionalOrganizer') {
+        setActiveData(professionalOrganizer);
+      } else if (hash === '#creativeOrganization') {
+        setActiveData(creativeOrganization);
+      } else {
+        setActiveData(individualCreator);
+      }
+
+      // Scroll do sekcji po zmianie hash
+      if (sectionRef.current) {
+        sectionRef.current.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+
+    window.addEventListener('hashchange', onHashChange);
+
+    return () => {
+      window.removeEventListener('hashchange', onHashChange);
+    };
+  }, []);
+
   return (
-    <section id="functions" className="py-10">
+    <section id="functions" className="py-10" ref={sectionRef}>
       <div data-aos="fade-up">
         <Container className="flex gap-10">
           <div>
@@ -100,7 +156,7 @@ export default function Functions() {
                 variant={
                   activeData === individualCreator ? 'default' : 'outline'
                 }
-                onClick={() => setActiveData(individualCreator)}
+                onClick={() => handleButtonClick(individualCreator, '#')}
                 className={`${activeData === individualCreator ? '' : 'bg-white dark:bg-foreground border-none'} w-full`}>
                 {t('functions.groups.individualCreator.title')}
               </Button>
@@ -108,7 +164,12 @@ export default function Functions() {
                 variant={
                   activeData === professionalOrganizer ? 'default' : 'outline'
                 }
-                onClick={() => setActiveData(professionalOrganizer)}
+                onClick={() =>
+                  handleButtonClick(
+                    professionalOrganizer,
+                    '#professionalOrganizer'
+                  )
+                }
                 className={`${activeData === professionalOrganizer ? '' : 'bg-white dark:bg-foreground border-none'} w-full`}>
                 {t('functions.groups.professionalOrganizer.title')}
               </Button>
@@ -116,7 +177,12 @@ export default function Functions() {
                 variant={
                   activeData === creativeOrganization ? 'default' : 'outline'
                 }
-                onClick={() => setActiveData(creativeOrganization)}
+                onClick={() =>
+                  handleButtonClick(
+                    creativeOrganization,
+                    '#creativeOrganization'
+                  )
+                }
                 className={`${activeData === creativeOrganization ? '' : 'bg-white dark:bg-foreground border-none'} w-full`}>
                 {t('functions.groups.creativeOrganization.title')}
               </Button>

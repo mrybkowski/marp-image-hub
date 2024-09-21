@@ -15,7 +15,7 @@ export default function About() {
   return (
     <section
       id="newsletter"
-      className="py-10 bg-secondary/20 dark:bg-foreground md:rounded-[100px] rounded-[40px]">
+      className="py-10 bg-secondary/20 dark:bg-foreground">
       <div data-aos="fade-up">
         <Container className="flex flex-col gap-10">
           <div className="w-full flex flex-col gap-2 pb-5 md:pb-0">

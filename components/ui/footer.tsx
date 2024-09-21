@@ -6,12 +6,11 @@ import {
   InstagramIcon,
   LinkedinIcon
 } from 'lucide-react';
+import Link from 'next/link';
 import { useTranslations } from 'next-intl';
-import { useTheme } from 'next-themes';
 
 import { P } from './typography-p';
 
-import BackgroundLayer from '@/app/[locale]/sections/hero/BackgroundLayer';
 import { Container } from '@/components/ui/container';
 
 export default function Footer() {
@@ -27,7 +26,7 @@ export default function Footer() {
   return (
     <section
       id="footer"
-      className="py-10 bg-foreground md:rounded-t-[100px] rounded-t-[40px] relative  overflow-hidden">
+      className="py-10 bg-foreground md:rounded-t-[100px] rounded-t-[40px] relative overflow-hidden">
       <div
         className={`dark:absolute d-none rounded-full opacity-100 blur-3xl animate-move-pulse dark:top-[0%] top-[10%] -right-[50%] w-[100%] h-[100%]`}
         style={{ background: gradientVariants['green'] }}
@@ -52,43 +51,62 @@ export default function Footer() {
         <div className="w-full lg:w-8/12 pt-10 md:py-0">
           <div className="flex flex-row flex-wrap md:justify-end justify-start gap-10">
             <div className="flex flex-col gap-6">
-              <P className="text-3xl text-white">{t('hero.menuTitle')}</P>
+              <Link href="/#hero" passHref>
+                <P className="text-3xl text-white">{t('navigation.title')}</P>
+              </Link>
               <div className="flex flex-col gap-2">
-                <P className="text-white">{t('about.title')}</P>
-                <P className="text-white">{t('functions.title')}</P>
-                <P className="text-white">{t('contact.title')}</P>
+                <Link href="/#about" passHref>
+                  <P className="text-white">{t('navigation.project')}</P>
+                </Link>
+                <Link href="/#functions" passHref>
+                  <P className="text-white">
+                    {t('navigation.functions.title')}
+                  </P>
+                </Link>
+                <Link href="/#newsletter" passHref>
+                  <P className="text-white">{t('navigation.newsletter')}</P>
+                </Link>
+                <Link href="/#contact" passHref>
+                  <P className="text-white">{t('navigation.contact')}</P>
+                </Link>
               </div>
             </div>
-            <div className="flex flex-col gap-6">
+            {/* <div className="flex flex-col gap-6">
               <P className="text-3xl text-white">
-                {t('footer.menu.partners.title')}
+                {t('navigation.partners.title')}
               </P>
               <div className="flex flex-col gap-2">
                 <P className="text-white">
-                  {t('footer.menu.partners.elements.partnersList')}
+                  {t('navigation.partners.partnersList')}
                 </P>
                 <P className="text-white">
-                  {t('footer.menu.partners.elements.becamePartner')}
+                  {t('navigation.partners.becamePartner')}
                 </P>
                 <P className="text-white">
-                  {t('footer.menu.partners.elements.affiliation')}
+                  {t('navigation.partners.affiliation')}
                 </P>
               </div>
-            </div>
+            </div> */}
             <div className="flex flex-col gap-6">
-              <P className="text-3xl text-white">
-                {t('footer.menu.company.title')}
-              </P>
+              <Link href="/company" passHref>
+                <P className="text-3xl text-white">
+                  {t('navigation.company.title')}
+                </P>
+              </Link>
               <div className="flex flex-col gap-2">
-                <P className="text-white">
-                  {t('footer.menu.company.elements.privacyPolicy')}
-                </P>
-                <P className="text-white">
-                  {t('footer.menu.company.elements.cookies')}
-                </P>
-                <P className="text-white">
-                  {t('footer.menu.company.elements.rules')}
-                </P>
+                <Link href="/privacy-policy" passHref>
+                  <P className="text-white">
+                    {t('navigation.company.privacyPolicy')}
+                  </P>
+                </Link>
+                <Link href="/cookies" passHref>
+                  <P className="text-white">
+                    {t('navigation.company.cookies')}
+                  </P>
+                </Link>
+                <Link href="/rules" passHref>
+                  <P className="text-white">{t('navigation.company.rules')}</P>
+                </Link>
               </div>
             </div>
           </div>

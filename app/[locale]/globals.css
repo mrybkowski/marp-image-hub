@@ -20,7 +20,7 @@ html,
 body {
   @apply font-montserrat;
   height: 100%;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 
 @layer utilities {

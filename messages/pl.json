@@ -24,6 +24,40 @@
       "tooLong": "Wyrażenie za długie, popraw na krótsze"
     }
   },
+  "navigation": {
+    "title": "Start",
+    "home": "Strona główna",
+    "project": "Projekt",
+    "functions": {
+      "title": "Funkcjonalności",
+      "individualCreator": {
+        "title": "Indywidualny kreator",
+        "description": "Twórca z pasją, realizujący własne projekty."
+      },
+      "professionalOrganizer": {
+        "title": "Profesjonalny organizator",
+        "description": "Ekspert w zarządzaniu wydarzeniami i projektami."
+      },
+      "creativeOrganization": {
+        "title": "Organizacja kreatywna",
+        "description": "Wwspółpraca generuje nowe, oryginalne projekty."
+      }
+    },
+    "newsletter": "Newsletter",
+    "contact": "Kontakt",
+    "partners": {
+      "title": "Partnerzy",
+      "partnersList": "Nasi partnerzy",
+      "becamePartner": "Zostań partnerem",
+      "affiliation": "Program afilacyjny"
+    },
+    "company": {
+      "title": "Firma",
+      "privacyPolicy": "Polityka prywatności",
+      "cookies": "Ustawienia cookies",
+      "rules": "Regulamin i zasady"
+    }
+  },
   "app": {
     "name": "photomarp",
     "short_description": "Zarządzaj swoją bazą zdjęć, udostępniaj swoje prace bez pośredników i nawiązuj współprace z klientami oraz innymi fotografami.",
@@ -158,25 +192,5 @@
   "contact": {
     "title": "Kontakt",
     "subtitle": "Skontakuj się z nami"
-  },
-  "footer": {
-    "menu": {
-      "partners": {
-        "title": "Partnerzy",
-        "elements": {
-          "partnersList": "Nasi partnerzy",
-          "becamePartner": "Zostań partnerem",
-          "affiliation": "Program afilacyjny"
-        }
-      },
-      "company": {
-        "title": "Firma",
-        "elements": {
-          "privacyPolicy": "Polityka prywatności",
-          "cookies": "Ustawienia cookies",
-          "rules": "Regulamin i zasady"
-        }
-      }
-    }
   }
 }

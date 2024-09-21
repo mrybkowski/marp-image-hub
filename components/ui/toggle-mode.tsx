@@ -42,10 +42,7 @@ export function ToggleMode() {
     <Tooltip.Provider>
       <Tooltip.Root>
         <Tooltip.Trigger asChild>
-          <Button
-            className="border-none"
-            variant="outline"
-            onClick={toggleTheme}>
+          <Button className="border-none" onClick={toggleTheme}>
             <MoonIcon
               className={`h-[1.2rem] w-[1.2rem] transition-all ${
                 isDark ? '-rotate-90 scale-0' : 'rotate-0 scale-100'
