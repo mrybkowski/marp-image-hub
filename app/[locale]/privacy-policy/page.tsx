@@ -31,7 +31,7 @@ export default function PrivacyPolicy() {
         <Accordion type="single" collapsible className="flex flex-col">
           <AccordionItem
             value="generalInformation"
-            className="lg:w-3/4 w-full dark:bg-foreground bg-white p-10 rounded-[40px] border-y border-section">
+            className="lg:w-3/4 w-full dark:bg-foreground bg-white p-5 rounded-[40px] border-y border-section">
             <AccordionTrigger className="text-3xl ml-5">
               {t('privacyPolicy.section.generalInformation.title')}
             </AccordionTrigger>
@@ -53,7 +53,7 @@ export default function PrivacyPolicy() {
             </AccordionContent>
           </AccordionItem>
 
-          <AccordionItem value="privacyPolicy" className="lg:w-3/4 w-full p-10">
+          <AccordionItem value="privacyPolicy" className="lg:w-3/4 w-full p-5">
             <AccordionTrigger className="text-3xl ml-5">
               {t('privacyPolicy.section.privacyPolicy.title')}
             </AccordionTrigger>
@@ -124,7 +124,7 @@ export default function PrivacyPolicy() {
 
           <AccordionItem
             value="scopesAndPurpose"
-            className="lg:w-3/4 w-full dark:bg-foreground bg-white p-10 rounded-[40px] border-y border-section">
+            className="lg:w-3/4 w-full dark:bg-foreground bg-white p-5 rounded-[40px] border-y border-section">
             <AccordionTrigger className="text-3xl ml-5">
               {t('privacyPolicy.section.scopesAndPurpose.title')}
             </AccordionTrigger>
@@ -228,7 +228,7 @@ export default function PrivacyPolicy() {
             </AccordionContent>
           </AccordionItem>
 
-          <AccordionItem value="cookies" className="lg:w-3/4 w-full p-10">
+          <AccordionItem value="cookies" className="lg:w-3/4 w-full p-5">
             <AccordionTrigger className="text-3xl ml-5">
               {t('privacyPolicy.section.cookies.title')}
             </AccordionTrigger>
@@ -266,7 +266,7 @@ export default function PrivacyPolicy() {
 
           <AccordionItem
             value="socialMedia"
-            className="lg:w-3/4 w-full dark:bg-foreground bg-white p-10 rounded-[40px] border-y border-section">
+            className="lg:w-3/4 w-full dark:bg-foreground bg-white p-5 rounded-[40px] border-y border-section">
             <AccordionTrigger className="text-3xl ml-5">
               {t('privacyPolicy.section.socialMedia.title')}
             </AccordionTrigger>
@@ -289,7 +289,7 @@ export default function PrivacyPolicy() {
 
           <AccordionItem
             value="rightsAndObligations"
-            className="lg:w-3/4 w-full p-10">
+            className="lg:w-3/4 w-full p-5">
             <AccordionTrigger className="text-3xl ml-5">
               {t('privacyPolicy.section.rightsAndObligations.title')}
             </AccordionTrigger>
