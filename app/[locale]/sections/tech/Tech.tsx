@@ -4,61 +4,29 @@ import { Container } from '@/components/ui/container';
 export default function Tech() {
   return (
     <section id="about" className="py-10">
-      <Container className="overflow-hidden relative">
-        <div className="relative flex gap-10 w-full justify-between animate-marquee">
-          <div className="shrink-0">
-            <Image src="/google.svg" alt="Google" width={218} height={75} />
-          </div>
-          <div className="shrink-0">
-            <Image src="/stripe.svg" alt="Stripe" width={182} height={75} />
-          </div>
-          <div className="shrink-0">
-            <Image src="/java.svg" alt="Java" width={40} height={75} />
-          </div>
-          <div className="shrink-0">
-            <Image src="/spring.svg" alt="Spring" width={75} height={75} />
-          </div>
-          <div className="shrink-0">
-            <Image src="/react.svg" alt="React" width={66} height={75} />
-          </div>
-          <div className="shrink-0">
-            <Image src="/next_js.svg" alt="NextJS" width={75} height={75} />
-          </div>
-          <div className="shrink-0">
-            <Image src="/ts.svg" alt="TypeScript" width={75} height={75} />
-          </div>
-          <div className="shrink-0">
-            <Image src="/ai.svg" alt="AI" width={75} height={75} />
-          </div>
+      <div className="relative flex overflow-x-hidden">
+        <div className="animate-marquee whitespace-nowrap">
+          <span className="text-4xl mx-5">Google</span>
+          <span className="text-4xl mx-5">Stripe</span>
+          <span className="text-4xl mx-5">Java</span>
+          <span className="text-4xl mx-5">Spring</span>
+          <span className="text-4xl mx-5">React</span>
+          <span className="text-4xl mx-5">NextJS</span>
+          <span className="text-4xl mx-5">TypeScript</span>
+          <span className="text-4xl mx-5">AI</span>
         </div>
 
-        <div className="absolute flex gap-10 w-full justify-between animate-marquee2 ml-10">
-          <div className="shrink-0">
-            <Image src="/google.svg" alt="Google" width={218} height={75} />
-          </div>
-          <div className="shrink-0">
-            <Image src="/stripe.svg" alt="Stripe" width={182} height={75} />
-          </div>
-          <div className="shrink-0">
-            <Image src="/java.svg" alt="Java" width={40} height={75} />
-          </div>
-          <div className="shrink-0">
-            <Image src="/spring.svg" alt="Spring" width={75} height={75} />
-          </div>
-          <div className="shrink-0">
-            <Image src="/react.svg" alt="React" width={66} height={75} />
-          </div>
-          <div className="shrink-0">
-            <Image src="/next_js.svg" alt="NextJS" width={75} height={75} />
-          </div>
-          <div className="shrink-0">
-            <Image src="/ts.svg" alt="TypeScript" width={75} height={75} />
-          </div>
-          <div className="shrink-0">
-            <Image src="/ai.svg" alt="AI" width={75} height={75} />
-          </div>
+        <div className="absolute top-0 animate-marquee2 whitespace-nowrap">
+          <span className="text-4xl mx-5">Google</span>
+          <span className="text-4xl mx-5">Stripe</span>
+          <span className="text-4xl mx-5">Java</span>
+          <span className="text-4xl mx-5">Spring</span>
+          <span className="text-4xl mx-5">React</span>
+          <span className="text-4xl mx-5">NextJS</span>
+          <span className="text-4xl mx-5">TypeScript</span>
+          <span className="text-4xl mx-5">AI</span>
         </div>
-      </Container>
+      </div>
     </section>
   );
 }
