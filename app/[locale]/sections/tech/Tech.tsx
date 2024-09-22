@@ -1,7 +1,7 @@
 export default function Tech() {
   return (
     <section id="about" className="py-10">
-      <div className="relative flex overflow-x-hidden">
+      <div className="relative flex overflow-hidden">
         <div className="animate-marquee whitespace-nowrap">
           <span className="text-4xl mx-5">Google</span>
           <span className="text-4xl mx-5">Stripe</span>
