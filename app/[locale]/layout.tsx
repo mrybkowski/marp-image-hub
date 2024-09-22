@@ -1,3 +1,4 @@
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import type { Metadata } from 'next';
 import { Anek_Latin, Montserrat } from 'next/font/google';
 
@@ -43,6 +44,7 @@ export default async function RootLayout({
           'select-none bg-background'
         )}>
         <AOSInit />
+        <SpeedInsights />
         <ThemeProvider>
           <TranslationProvider>
             <Header />
