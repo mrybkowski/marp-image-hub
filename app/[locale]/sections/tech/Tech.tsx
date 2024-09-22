@@ -1,6 +1,3 @@
-import Image from 'next/image';
-import { Container } from '@/components/ui/container';
-
 export default function Tech() {
   return (
     <section id="about" className="py-10">
