@@ -37,7 +37,7 @@ export function Newsletter() {
   }
 
   return (
-    <section className="bg-orange-500 py-10">
+    <section className="bg-orange-500 py-10 relative">
       <Container className="flex flex-col items-center gap-3">
         <p className="font-medium lg:text-3xl md:text-2xl text-xl text-center text-zinc-800">
           {t("marketing.newsletter.description")}

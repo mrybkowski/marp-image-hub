@@ -29,6 +29,51 @@
     "newsletter": {
       "title": "Newsletter",
       "description": "Subscribe to our newsletter to stay up to date"
+    },
+    "reviews": {
+      "title": "Reviews",
+      "subtitle": "See what they say about our solution"
+    },
+    "pricelist": {
+      "title": "Pricing",
+      "subtitle": "Choose your plan",
+      "description": "Unlock the full potential of your business. Choose your accounting period.",
+      "plan": {
+        "allFunctions": "List of all features",
+        "basic": {
+          "title": "Basic",
+          "price": "Free",
+          "description": "A test plan that allows quick onboarding to the application.",
+          "includes": {
+            "title": "Includes",
+            "0": "Adding up to 3 clients",
+            "1": "Uploading up to 25 photos to the album",
+            "2": "Creating up to 3 albums"
+          }
+        },
+        "premium": {
+          "title": "Premium",
+          "price": "49.90",
+          "description": "An ideal plan for individuals allowing monetization of services.",
+          "includes": {
+            "title": "Includes everything from the Basic plan, plus:",
+            "0": "Adding an unlimited number of clients",
+            "1": "Uploading an unlimited number of photos",
+            "2": "Creating an unlimited number of albums"
+          }
+        },
+        "enterprise": {
+          "title": "Enterprise",
+          "price": "149.90",
+          "description": "For organizations with more than one employee.",
+          "includes": {
+            "title": "Includes everything from the Premium plan, plus:",
+            "0": "24/7 technical support",
+            "1": "1:1 dedicated system training",
+            "2": "Access management for employees"
+          }
+        }
+      }
     }
   }
 }

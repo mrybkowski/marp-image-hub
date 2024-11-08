@@ -47,6 +47,51 @@
     "newsletter": {
       "title": "Newsletter",
       "description": "Zapisz się do naszego newsletter'a, aby być na bieżąco"
+    },
+    "reviews": {
+      "title": "Opinie",
+      "subtitle": "Zobacz co mówią o naszym rozwiązaniu"
+    },
+    "pricelist": {
+      "title": "Cennik",
+      "subtitle": "Wybierz swój plan",
+      "description": "Odblokuj pełen potencjał swojej działalności. Wybierz okres rozliczeniowy.",
+      "plan": {
+        "allFunctions": "Lista wszystkich funkcjonalności",
+        "basic": {
+          "title": "Basic",
+          "price": "Free",
+          "description": "Plan testowy umożliwiający szybkie wdrożenie się w działanie aplikacji.",
+          "includes": {
+            "title": "Zawiera",
+            "0": "Dodawanie do 3 klientów",
+            "1": "Wgrywanie maksymalnie 25 zdjęć do albumu",
+            "2": "Tworzenie do 3 albumów"
+          }
+        },
+        "premium": {
+          "title": "Premium",
+          "price": "49,90 zł",
+          "description": "Idealny plan dla indywidualnych użytkowników umożliwiający monetyzację usług.",
+          "includes": {
+            "title": "Zawiera wszystko z planu Basic oraz:",
+            "0": "Dodawanie nieograniczonej liczby klientów",
+            "1": "Wgrywanie nieograniczonej liczby zdjęć",
+            "2": "Tworzenie nieograniczonej liczby albumów"
+          }
+        },
+        "enterprise": {
+          "title": "Enterprise",
+          "price": "149,90 zł",
+          "description": "Dla organizacji posiadających więcej niż jednego pracownika.",
+          "includes": {
+            "title": "Zawiera wszystko z planu Premium oraz:",
+            "0": "Całodobowe wsparcie techniczne (24/7)",
+            "1": "Indywidualne szkolenie 1:1 z obsługi systemu",
+            "2": "Zarządzanie dostępami dla pracowników"
+          }
+        }
+      }
     }
   }
 }

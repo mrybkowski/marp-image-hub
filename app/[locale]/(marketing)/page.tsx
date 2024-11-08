@@ -1,4 +1,4 @@
-import { About, Hero, Newsletter } from "./_sections";
+import { About, Hero, Newsletter, Pricelist, Reviews } from "./_sections";
 
 export default function HomePage() {
   return (
@@ -6,6 +6,8 @@ export default function HomePage() {
       <Hero />
       <About />
       <Newsletter />
+      <Reviews />
+      <Pricelist />
     </main>
   );
 }
